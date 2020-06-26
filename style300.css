@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Signika', sans-serif;
-    color: #6aabcc;
-    background-color: #f7f7f7;
+    color:#ef3e4a;
+    background-color: #f3c9dd;
 }
 
 /* NAV */
@@ -39,7 +39,7 @@ nav {
 
 .navbar li a {
     text-decoration: none;
-    color: #6aabcc;  
+    color: #ef3e4a;  
     font-size: 25px;
 }
 
