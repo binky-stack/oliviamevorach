@@ -59,6 +59,24 @@ nav {
     width: 100%
 }
 
+img:hover {
+  opacity: 0.5;
+}
+
+p{
+    width: 50%;
+    margin-top: 15%;
+    text-align: center;
+    margin-left: 23%;
+    font-size: 20pt;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 800px) {
