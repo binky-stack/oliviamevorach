@@ -87,9 +87,24 @@ nav ul li a:hover{
 
 /*nav end*/
 
+p{
+    width: 50%;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 35px;
+}
 
 
+.header a{
+	text-decoration: none;
+	color: #ef3e4a;
+}
 
+.header{
+	padding:2% 3% 0 0;
+	font-size: 25px;
+}
 
 
 
@@ -112,6 +127,7 @@ nav ul li a:hover{
     font-size: 48px;
 }
 
+
 }
 
 @media screen and (max-width: 900px){
@@ -130,6 +146,10 @@ nav ul li a:hover{
     margin: -0.2em;
     font-size: 36px;
 
+}
+
+p{
+	font-size: 20px;
 }
 }
 
@@ -150,6 +170,9 @@ nav ul li a:hover{
     font-size: 36px;
 
 }
+p{
+	font-size: 20px;
+}
 }
 
 
@@ -162,6 +185,9 @@ nav ul li a:hover{
 		flex-wrap: wrap;
 		font-size: 1em;
 		line-height: 200%}
+	p{
+	font-size: 18px;
+}
 
 	}
 
@@ -175,6 +201,9 @@ nav ul li a:hover{
 		flex-wrap: wrap;
 		font-size: 1em;
 		line-height: 200%}
+		p{
+	font-size: 18px;
+}
 
 	}
 
@@ -189,6 +218,10 @@ nav ul li a:hover{
 		font-size: 1em;
 		line-height: 200%}
 
+	p{
+	font-size: 15px;
+}
+
 	}
 
 @media screen and (max-width: 400px){
@@ -201,6 +234,10 @@ nav ul li a:hover{
 		font-size: 0.7em;
 		line-height: 200%}
 
+		p{
+	font-size: 15px;
+}
+
 	}
 
 @media screen and (max-width: 300px){
@@ -212,4 +249,7 @@ nav ul li a:hover{
 		flex-wrap: wrap;
 		font-size: 0.6em;
 		line-height: 200%}
+		p{
+	font-size: 13px;
+}
 }
