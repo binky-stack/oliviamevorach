@@ -113,6 +113,10 @@ color: blue;
     display: none;
     }
 
+     #para{
+    opacity: 19%;
+    }
+
    ul li{
     width: 200%;
     font-size: 25px;
@@ -130,7 +134,9 @@ h1{
     .entry{
     display: none;
     }
-
+   #para{
+    opacity: 19%;
+    }
    ul li{
     width: 100%;
     font-size: 25px;
@@ -148,7 +154,9 @@ h1{
     .entry{
     display: none;
     }
-
+   #para{
+    opacity: 19%;
+    }
    ul li{
     width: 100%;
     font-size: 15px;
@@ -166,7 +174,9 @@ h1{
     .entry{
     display: none;
     }
-
+   #para{
+    opacity: 19%;
+    }
    ul li{
     width: 100%;
     font-size: 10px;
@@ -191,7 +201,9 @@ h1{
     font-size: 10px;
     padding: 3% 0 20% 2%
 } 
-
+   #para{
+    opacity: 19%;
+    }
 .container{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -210,7 +222,9 @@ h1{
     font-size: 10px;
     padding: 3% 0 10% 2%
 } 
-
+   #para{
+    opacity: 19%;
+    }
 .container{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -222,6 +236,9 @@ h1{
   
     .entry{
     display: none;
+    }
+       #para{
+    opacity: 19%;
     }
 
    ul li{
@@ -241,6 +258,9 @@ h1{
   
     .entry{
     display: none;
+    }
+       #para{
+    opacity: 19%;
     }
 
    ul li{
