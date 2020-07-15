@@ -1,0 +1,215 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap'));
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	font-family: 'Rubik Mono One', sans-serif;
+	color:#ef3e4a;
+	background-color:#d087bd;
+}
+
+/*page header*/
+h1{
+	padding: 3em;
+	margin-left: 3%;
+	font-size: 50pt;
+	width: a%;
+}
+
+.comment h2{
+	display: none;
+	margin-top: -14%;
+	margin-left: 50%;
+	position: absolute;
+}
+
+h1:hover + .comment h2{
+	display: flex;
+	font-size: 0.7em;
+	line-height: 20pt;
+	color: #083ea7;
+
+	border: 5px solid #fdf06f;
+	line-height: 150%;
+
+}
+
+h1:hover{
+
+	cursor: help;
+}
+/*page header end*/
+
+
+/*nav*/
+
+nav{
+padding: 2%;
+}
+
+nav ul{
+
+	display:flex;
+	list-style: none;
+	justify-content: space-around;
+
+
+}
+
+nav ul li{
+    list-style-position: inside;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:#ef3e4a;  
+	font-size:100%;
+
+}
+
+nav ul li:before{
+  content: "\A673";
+  float: left;
+  display: block;
+  width: 1.2em;
+  font-size: 38px;
+}
+
+nav ul li a:hover{
+	color: #f4c7ee;
+}
+
+/*nav end*/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+	h1{
+		margin:0;
+		padding: 5% 5%;
+		font-size: 3em; }
+
+	nav ul li{
+		flex-direction: row-reverse;
+		font-size: 1.5em;}
+
+  ul li:before
+{
+    content: '\A673';
+    margin-left: 0;
+    font-size: 48px;
+}
+
+}
+
+@media screen and (max-width: 900px){
+	h1{
+
+		font-size: 4em;;
+	}
+
+	nav ul li{
+		flex-direction: row-reverse;
+		font-size: 1.3em;}
+
+	 ul li:before
+{
+    content: '\A673';
+    margin: -0.2em;
+    font-size: 36px;
+
+}
+}
+
+@media screen and (max-width: 800px){
+	h1{
+
+		font-size: 4em;;
+	}
+
+	nav ul li{
+		flex-direction: row-reverse;
+		font-size: 1.3em;}
+
+	 ul li:before
+{
+    content: '\A673';
+    margin: -0.2em;
+    font-size: 36px;
+
+}
+}
+
+
+@media screen and (max-width: 700px){
+	h1{
+		font-size: 2em;
+	}
+	nav ul{
+		margin-left: 2%;
+		flex-wrap: wrap;
+		font-size: 1em;
+		line-height: 200%}
+
+	}
+
+
+@media screen and (max-width: 600px){
+	h1{
+		font-size: 2em;
+	}
+	nav ul{
+		margin-left: 2%;
+		flex-wrap: wrap;
+		font-size: 1em;
+		line-height: 200%}
+
+	}
+
+
+@media screen and (max-width: 500px){
+	h1{
+		font-size: 2em;
+	}
+	nav ul{
+		margin-left: 2%;
+		flex-wrap: wrap;
+		font-size: 1em;
+		line-height: 200%}
+
+	}
+
+@media screen and (max-width: 400px){
+	h1{
+		font-size: 1.8em;
+	}
+	nav ul{
+		margin-left: 2%;
+		flex-wrap: wrap;
+		font-size: 0.7em;
+		line-height: 200%}
+
+	}
+
+@media screen and (max-width: 300px){
+	h1{
+		font-size: 1em;
+	}
+	nav ul{
+		margin-left: 2%;
+		flex-wrap: wrap;
+		font-size: 0.6em;
+		line-height: 200%}
+}
