@@ -9,7 +9,6 @@
 body{
 
     font-family: 'Rubik Mono One', sans-serif;
-    color:#fedccc;
     background-color:#ff8fa4;
 }
 
@@ -19,11 +18,11 @@ header{
 }
 header a{
 	text-decoration: none;
-	color: blue;
+	color: #003cfe;
 }
 
 header a:hover{
-	color: yellow;
+	color: #fbfe56;
 }
 
 
@@ -50,7 +49,11 @@ section .entry{
 	width: 70%;
 	padding: 30px 10% 0 0;
 
+	line-height: 1.3em;
+	letter-spacing: 0.1em;
+
 }
+
 
 section .entry a{
 	text-decoration: none;
@@ -58,7 +61,7 @@ section .entry a{
 }
 
 section .entry a:hover{
-	color:blue;
+	color: #003cfe;
 
 }
 
@@ -76,11 +79,15 @@ section .video:hover{
 }
 
 section .video video{
-	
+	border: 2px solid #fbfe56;
+}
+
+section .video video:hover{
+	border: 2px solid #003cfe;
 }
 
 footer{
-	color: yellow;
+	color: #fbfe56;
 	margin-left: 76%;
 	font-size: 12px;
 	margin-bottom: 3%;
