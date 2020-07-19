@@ -127,7 +127,11 @@ header a:hover{
 
 
 footer{
-  color:#a75b3f;
+width:100%;
+ color:#a75b3f;
+ margin-top: 1%;
+margin-bottom: 2%;
+   margin-left: 5%;
 }
 
 /*screen sizing*/
