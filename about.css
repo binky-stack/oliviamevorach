@@ -79,11 +79,12 @@ font-size: 50px;
 
 
 
-	border: 4px solid #ef3e4a;
+	border: 4px solid #3c485e;
+	
 }
 
 .me img:hover{
-	border: 4px solid #3c485e;
+	border: 4px solid #ef3e4a;
 }
 
 @media screen and (max-width: 600px) {
