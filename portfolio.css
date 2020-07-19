@@ -239,9 +239,17 @@ footer{
    width: 100%;
    height: auto;
    }
-   .entry-title, .entry-description{
-    text-overflow: inherit;
-    font-size: 100%;
+ .entry-title{
+    font-size: 15pt;
+    width: 30%;
+    height: auto;
+   }
+    .entry-description{
+    display: none;
+   }
+
+   .entry-image img{
+    display: none;
    }
 
 }
@@ -255,7 +263,7 @@ footer{
    }
 
    .entry-title{
-    font-size: 15pt;
+    font-size: 13pt;
     width: 30%;
     height: auto;
    }
