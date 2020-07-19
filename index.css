@@ -1,4 +1,7 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap'));
 @import url(@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap'));
+ 
+
 
 *{
 	padding: 0;
@@ -14,66 +17,72 @@ body{
 }
 
 /*page header*/
-h1{
-	padding: 3em;
+h1, .last{
 	margin-left: 3%;
-	font-size: 50pt;
-	width: a%;
+	font-size: 80px;
+	width: 100%;
 }
 
-.comment h2{
-	display: none;
-	margin-top: -14%;
-	margin-left: 50%;
-	position: absolute;
+header{
+	text-align: left;
+	margin-top: 10%;
+	width: 100%;
 }
 
-h1:hover + .comment h2{
-	display: flex;
-	font-size: 0.7em;
-	line-height: 20pt;
-	color: #083ea7;
 
-	border: 5px solid #fdf06f;
-	line-height: 150%;
+.last .define{
+	visibility: hidden;
+	width: 30%;
+	position: relative;
+	padding-right:16%;
+
+	display: inline-flex;
+	
+	z-index: 1;
+}
+
+.define{
+	font-size: 15px;
+	border: 5px solid yellow;
+	color:blue;
+}
+
+ .last:hover .define{
+	visibility: visible;
 
 }
 
-h1:hover{
+.last:hover{
 
 	cursor: help;
 }
 /*page header end*/
 
 
-/*nav*/
 
-nav{
-padding: 2%;
-}
+.nav {
 
-nav ul{
-
-	display:flex;
+	display:inline-flex;
+	flex-wrap: nowrap;
 	list-style: none;
-	justify-content: space-around;
-
-
-}
-
-nav ul li{
-    list-style-position: inside;
+	justify-content: space-between;
+	list-style-position: inside;
+	margin-left: 14%;
+	
 
 }
 
-nav ul li a{
-	text-decoration: none;
+
+.nav p a{
 	color:#ef3e4a;  
-	font-size:100%;
+	font-size:150%;
+	text-decoration:none;
+
 
 }
 
-nav ul li:before{
+
+.nav p:before{
   content: "\A673";
   float: left;
   display: block;
@@ -81,175 +90,116 @@ nav ul li:before{
   font-size: 38px;
 }
 
-nav ul li a:hover{
+.nav p a:hover{
 	color: #f4c7ee;
 }
 
 /*nav end*/
-
-p{
-    width: 50%;
-    margin-top: 10%;
-    text-align: center;
-    margin-left: 25%;
-    font-size: 35px;
-}
-
-
-.header a{
-	text-decoration: none;
-	color: #ef3e4a;
-}
-
-.header{
-	padding:2% 3% 0 0;
-	font-size: 25px;
-}
 
 
 
 
 
 @media screen and (max-width: 1024px){
-	h1{
-		margin:0;
-		padding: 5% 5%;
-		font-size: 3em; }
-
-	nav ul li{
-		flex-direction: row-reverse;
-		font-size: 1.5em;}
-
-  ul li:before
-{
-    content: '\A673';
-    margin-left: 0;
-    font-size: 48px;
-}
-
+	.define{
+		visibility: hidden;
+	}
 
 }
 
 @media screen and (max-width: 900px){
-	h1{
 
-		font-size: 4em;;
+h1{
+		font-size: 70px;
 	}
-
-	nav ul li{
-		flex-direction: row-reverse;
-		font-size: 1.3em;}
-
-	 ul li:before
-{
-    content: '\A673';
-    margin: -0.2em;
-    font-size: 36px;
-
+.last{
+	font-size: 70px;
+}
+.define{
+		visibility: hidden;
+	}
 }
 
-p{
-	font-size: 20px;
-}
-}
 
 @media screen and (max-width: 800px){
 	h1{
-
-		font-size: 4em;;
+		font-size: 70px;
 	}
 
-	nav ul li{
-		flex-direction: row-reverse;
-		font-size: 1.3em;}
-
-	 ul li:before
-{
-    content: '\A673';
-    margin: -0.2em;
-    font-size: 36px;
-
+	.last{
+	font-size: 70px;
 }
-p{
-	font-size: 20px;
-}
+.define{
+		visibility: hidden;
+	}
+
 }
 
 
 @media screen and (max-width: 700px){
 	h1{
-		font-size: 2em;
+		font-size: 70px;
 	}
-	nav ul{
-		margin-left: 2%;
-		flex-wrap: wrap;
-		font-size: 1em;
-		line-height: 200%}
-	p{
-	font-size: 18px;
-}
 
+	.last{
+	font-size: 70px;
+}
+.define{
+		visibility: hidden;
 	}
+}
 
 
 @media screen and (max-width: 600px){
+	
 	h1{
-		font-size: 2em;
+		font-size: 60px;
 	}
-	nav ul{
-		margin-left: 2%;
-		flex-wrap: wrap;
-		font-size: 1em;
-		line-height: 200%}
-		p{
-	font-size: 18px;
+	.last{
+	font-size: 60px;
+}
+.define{
+		visibility: hidden;
+	}
 }
 
-	}
 
 
 @media screen and (max-width: 500px){
 	h1{
-		font-size: 2em;
+		font-size: 60px;
 	}
-	nav ul{
-		margin-left: 2%;
-		flex-wrap: wrap;
-		font-size: 1em;
-		line-height: 200%}
 
-	p{
-	font-size: 15px;
+	.last{
+	font-size: 60px;
 }
-
+.define{
+		visibility: hidden;
 	}
+}
 
 @media screen and (max-width: 400px){
 	h1{
-		font-size: 1.8em;
+		font-size: 30px;
 	}
-	nav ul{
-		margin-left: 2%;
-		flex-wrap: wrap;
-		font-size: 0.7em;
-		line-height: 200%}
 
-		p{
-	font-size: 15px;
+	.last{
+	font-size: 30px;
 }
-
+.define{
+		visibility: hidden;
 	}
+}
 
 @media screen and (max-width: 300px){
 	h1{
-		font-size: 1em;
+		font-size: 30px;
 	}
-	nav ul{
-		margin-left: 2%;
-		flex-wrap: wrap;
-		font-size: 0.6em;
-		line-height: 200%}
-		p{
-	font-size: 13px;
+
+	.last{
+	font-size: 30px;
 }
+.define{
+		visibility: hidden;
+	}
 }
