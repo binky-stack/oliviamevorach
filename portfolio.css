@@ -225,6 +225,9 @@ footer{
     text-overflow: inherit;
     font-size: 100%;
    }
+	footer{
+	width:70%;
+	}
 }
 /*screen*/
 @media screen and (max-width: 500px) {
@@ -251,6 +254,9 @@ footer{
    .entry-image img{
     display: none;
    }
+	footer{
+	width:60%;
+	}
 
 }
 /*screen*/
@@ -274,7 +280,9 @@ footer{
    .entry-image img{
     display: none;
    }
-
+footer{
+	width:30%;
+	}
 }
 
 /*screen*/
@@ -298,6 +306,9 @@ footer{
    .entry-image{
     display: none;
    }
+	footer{
+	width:30%;
+	}
 }
 
 @media screen and (max-width: 200px) {
@@ -320,4 +331,7 @@ footer{
    .entry-image{
     display: none;
    }
+	footer{
+	width:30%;
+	}
 }
