@@ -1,0 +1,317 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Arima+Madurai:wght@300;400&display=swap'));
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #F9F7E8;
+	color: #E93F3A;
+}
+
+.title {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 400;
+	font-size: 45px;
+	letter-spacing: 0.1em;
+	line-height: 120%;
+	padding: 3%;
+	text-transform: uppercase;
+}
+
+.title a{
+	color: #E93F3A;
+	text-decoration: none;
+}
+
+
+nav ul li{
+	display:inline-flex;
+	padding: 0 3% 0 3%;
+
+	font-family: 'Archivo', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+
+nav ul li a{
+color: #E93F3A;
+text-decoration: none;	
+}
+
+nav ul li a:hover{
+	color: black;
+}
+
+
+
+.page{
+display: flex;
+flex-wrap: wrap;
+max-height: 300px;
+}
+
+
+.writing{
+
+	display: flex;
+
+  border:2px solid #E93F3A;
+  border-radius: 8%;
+  background: transparent;
+  padding: 10%; 
+  width: 20%;
+  max-height: 150px; 
+
+  margin-left: 25%;
+  margin-top: 9%;
+}
+
+
+.scripts, .prose, .musiclink{
+	display: flex;
+	font-family: 'Arima Madurai', cursive;
+	text-transform: uppercase;
+
+	letter-spacing: 0.2em;
+
+}
+
+.scripts{
+	display: flex;
+
+	position: absolute;
+	margin-top: -9%;
+	margin-left:-8.5%;
+}
+
+
+.prose{
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 2%;
+}
+
+
+.scripts a, .prose a, .musiclink a{
+	color: #E93F3A;
+	text-decoration: none;
+}
+
+.scripts img{
+	display: flex;
+position: absolute;
+width: 100%;
+height: auto;
+margin-top:59%;
+margin-left: 50%;
+
+}
+
+.music{
+display: flex;
+
+
+  border:2px solid #E93F3A;
+  border-radius: 50%;
+  background: #F9F7E8;
+  padding: 12%; 
+  width: 5%;
+  height: 20px; 
+
+
+}
+
+.musiclink {
+	
+
+	position: absolute;
+	margin-left:5%;
+}
+
+
+/* end of original css */
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+
+.scripts, .prose{
+
+	font-size: 14.5px;
+
+}
+
+.musiclink{
+	margin-left: -3.5%;
+}
+
+	}
+
+@media screen and (max-width: 900px) {
+
+.scripts, .prose{
+
+	font-size: 12.5px;
+
+}
+
+.musiclink{
+	margin-left: -3.5%;
+}
+
+	}
+
+@media screen and (max-width: 800px) {
+
+.scripts, .prose{
+
+	font-size: 10px;
+
+}
+
+.musiclink{
+	margin-left: -4.5%;
+	font-size: 14px;
+}
+
+	}
+
+@media screen and (max-width: 700px) {
+
+.scripts, .prose{
+
+	font-size: 9.5px;
+
+}
+
+.musiclink{
+	margin-left: -5%;
+	font-size: 13px;
+}
+
+	}
+
+
+@media screen and (max-width: 600px) {
+
+.scripts, .prose{
+
+	font-size: 15px;
+
+}
+
+.prose{
+	margin-top: 5%;
+	margin-left: -5%;
+}
+
+.scripts img{
+	display: none;
+}
+
+.musiclink{
+	margin-left: -5%;
+	font-size: 13px;
+}
+
+	}
+
+@media screen and (max-width: 500px) {
+
+.scripts, .prose{
+
+	font-size: 13px;
+
+}
+
+.prose{
+	margin-top: -2%;
+	margin-left: -6%;
+}
+
+.scripts img{
+	display: none;
+}
+
+.musiclink{
+	margin-left: -6%;
+	font-size: 13px;
+}
+
+	}
+
+
+@media screen and (max-width: 400px) {
+
+.writing, .music{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	padding:20%;
+}
+
+.scripts, .prose{
+	margin-left: -10%;
+}
+
+.musiclink{
+	margin-left: -8%;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+.writing, .music{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	padding:20%;
+}
+
+.scripts, .prose{
+	margin-left: -15%;
+}
+
+.musiclink{
+	margin-left: -11%;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+.writing, .music{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	padding:30%;
+}
+
+.scripts, .prose{
+	margin-left: -20%;
+
+}
+
+.scripts{
+	margin-top: -15%;
+}
+
+.musiclink{
+	margin-left: -17%;
+}
+}
