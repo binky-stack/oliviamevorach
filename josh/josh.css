@@ -11,8 +11,7 @@
 }
 
 body{
-	background-color: #F9F7E8;
-	color: #E93F3A;
+	background-color: #fdf06f;
 }
 
 .title {
@@ -26,7 +25,7 @@ body{
 }
 
 .title a{
-	color: #E93F3A;
+	color: #112378;
 	text-decoration: none;
 }
 
@@ -43,7 +42,7 @@ nav ul li{
 
 
 nav ul li a{
-color: #E93F3A;
+color: #4f3a4b;
 text-decoration: none;	
 }
 
@@ -64,7 +63,7 @@ max-height: 300px;
 
 	display: flex;
 
-  border:2px solid #E93F3A;
+  border:2px solid #112378;;
   border-radius: 8%;
   background: transparent;
   padding: 10%; 
@@ -102,9 +101,15 @@ max-height: 300px;
 
 
 .scripts a, .prose a, .musiclink a{
-	color: #E93F3A;
+	color: #4f3a4b;
 	text-decoration: none;
 }
+
+.scripts a:hover, .prose a:hover, .musiclink a:hover{
+	color: black;
+	text-decoration: line-through; 
+}
+
 
 .scripts img{
 	display: flex;
@@ -120,7 +125,7 @@ margin-left: 50%;
 display: flex;
 
 
-  border:2px solid #E93F3A;
+  border:2px solid #112378;
   border-radius: 50%;
   background: #F9F7E8;
   padding: 12%; 
@@ -229,6 +234,14 @@ display: flex;
 
 @media screen and (max-width: 500px) {
 
+.writing, .music{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	padding:15%;
+}
+
 .scripts, .prose{
 
 	font-size: 13px;
@@ -237,7 +250,7 @@ display: flex;
 
 .prose{
 	margin-top: -2%;
-	margin-left: -6%;
+	margin-left: -10%;
 }
 
 .scripts img{
@@ -245,7 +258,7 @@ display: flex;
 }
 
 .musiclink{
-	margin-left: -6%;
+	margin-left: -8%;
 	font-size: 13px;
 }
 
