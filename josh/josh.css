@@ -131,6 +131,9 @@ display: flex;
   padding: 12%; 
   width: 5%;
   height: 20px; 
+	
+margin-left: -5%;
+  margin-top: -6%;
 
 
 }
@@ -139,7 +142,7 @@ display: flex;
 	
 
 	position: absolute;
-	margin-left:5%;
+	margin-left:3%;
 }
 
 
