@@ -29,21 +29,34 @@ body{
 	text-decoration: none;
 }
 
+.title a:hover{
+	color: black;
+}
 
+nav ul{
+	float: right;
+	margin-top: -8%;
+	margin-right: 3%;
+
+
+
+}
 nav ul li{
 	display:inline-flex;
-	padding: 0 3% 0 3%;
-
+	
 	font-family: 'Archivo', sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 500;
 	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	
 }
 
 
 nav ul li a{
 color: #BB803F;
-text-decoration: none;	
+text-decoration: none;
+	
 }
 
 nav ul li a:hover{
@@ -193,6 +206,18 @@ margin-left: -5%;
 	font-size: 14px;
 }
 
+nav ul li{
+	display:inline-flex;
+	padding: 0 3% 0 3%;
+
+	font-family: 'Archivo', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+
+
 	}
 
 @media screen and (max-width: 700px) {
@@ -207,6 +232,17 @@ margin-left: -5%;
 	margin-left: -5%;
 	font-size: 13px;
 }
+
+nav ul li{
+	display:inline-flex;
+	padding: 0 3% 0 3%;
+
+	font-family: 'Archivo', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
 
 	}
 
@@ -233,9 +269,10 @@ margin-left: -5%;
 	font-size: 13px;
 }
 
-	}
-
-@media screen and (max-width: 500px) {
+nav ul li{
+	
+	margin-left: 10%;
+}
 
 .writing, .music{
 	margin: auto;
@@ -245,6 +282,21 @@ margin-left: -5%;
 	padding:15%;
 }
 
+	}
+
+@media screen and (max-width: 500px) {
+
+
+.writing, .music{
+	display: flex;
+	flex-direction: column;
+		margin: auto;
+	
+	margin-top: 15%;
+	padding:30%;
+	margin-left: 15%;
+}
+
 .scripts, .prose{
 
 	font-size: 13px;
@@ -252,7 +304,7 @@ margin-left: -5%;
 }
 
 .prose{
-	margin-top: -2%;
+	margin-top: 4%;
 	margin-left: -10%;
 }
 
@@ -261,21 +313,28 @@ margin-left: -5%;
 }
 
 .musiclink{
-	margin-left: -8%;
+	margin-left: -6.5%;
 	font-size: 13px;
+}
+nav ul li{
+	
+	margin-top: 8%;
+	margin-left: 30%;
 }
 
 	}
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 411px) {
 
 .writing, .music{
-	margin: auto;
 	display: flex;
 	flex-direction: column;
+		margin: auto;
+	
 	margin-top: 15%;
-	padding:20%;
+	padding:45%;
+	margin-left: 15%;
 }
 
 .scripts, .prose{
@@ -286,16 +345,55 @@ margin-left: -5%;
 	margin-left: -8%;
 }
 
+nav ul li{
+	
+	margin-top: 8%;
+	margin-left: 30%;
 }
 
-@media screen and (max-width: 300px) {
+}
+
+
+@media screen and (max-width: 400px) {
 
 .writing, .music{
-	margin: auto;
 	display: flex;
 	flex-direction: column;
+		margin: auto;
+	
 	margin-top: 15%;
-	padding:20%;
+	padding:35%;
+	margin-left: 15%;
+}
+
+.scripts, .prose{
+	margin-left: -10%;
+}
+
+.musiclink{
+	margin-left: -8%;
+}
+
+nav ul li{
+	
+	margin-top: 8%;
+	margin-left: 30%;
+}
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+.writing, .music{
+	display: flex;
+	flex-direction: column;
+		margin: auto;
+	
+	margin-top: 15%;
+	padding:57%;
+	margin-left: 15%;
 }
 
 .scripts, .prose{
@@ -308,26 +406,49 @@ margin-left: -5%;
 
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
+
 
 .writing, .music{
-	margin: auto;
 	display: flex;
 	flex-direction: column;
+		margin: auto;
+	
 	margin-top: 15%;
-	padding:30%;
+	padding:55%;
+	margin-left: 15%;
 }
 
 .scripts, .prose{
-	margin-left: -20%;
-
-}
-
-.scripts{
-	margin-top: -15%;
+	margin-left: -15%;
 }
 
 .musiclink{
-	margin-left: -17%;
+	margin-left: -11%;
 }
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+
+.writing, .music{
+	display: flex;
+	flex-direction: column;
+		margin: auto;
+	
+	margin-top: 15%;
+	padding:65%;
+	margin-left: 15%;
+}
+
+.scripts, .prose{
+	margin-left: -15%;
+}
+
+.musiclink{
+	margin-left: -11%;
+}
+
 }
