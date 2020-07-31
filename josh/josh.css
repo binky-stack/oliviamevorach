@@ -11,7 +11,7 @@
 }
 
 body{
-	background-color: #3B6370;
+	background-color: #E0D7C6;
 }
 
 .title {
@@ -25,7 +25,7 @@ body{
 }
 
 .title a{
-	color: #112378;
+	color: #BB803F;
 	text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ nav ul li{
 
 
 nav ul li a{
-color: #4f3a4b;
+color: #BB803F;
 text-decoration: none;	
 }
 
@@ -63,7 +63,7 @@ max-height: 300px;
 
 	display: flex;
 
-  border:2px solid #112378;;
+  border:2px solid #84A19C;
   border-radius: 8%;
   background: transparent;
   padding: 10%; 
@@ -101,7 +101,7 @@ max-height: 300px;
 
 
 .scripts a, .prose a, .musiclink a{
-	color: #4f3a4b;
+	color: #372726;
 	text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ margin-left: 50%;
 display: flex;
 
 
-  border:2px solid #112378;
+  border:2px solid #486034;
   border-radius: 50%;
   background: #transparent;
   padding: 12%; 
