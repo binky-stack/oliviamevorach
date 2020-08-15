@@ -57,7 +57,10 @@ padding-top: 7%;
 
 /* top text */
 
-
+hr{
+	color:transparent;
+	opacity:0%;
+}
 
 h1{
 	display: flex;
