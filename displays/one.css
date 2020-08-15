@@ -72,6 +72,15 @@ h1{
 	font-size: 250%;
 }
 
+h1 a{
+	text-decoration:none;
+	color:black;
+}
+
+h1 a:hover{
+	opacity:40%;
+}
+
 h2{
 	display: flex;
 	justify-content: center;
