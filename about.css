@@ -1,6 +1,9 @@
 @import url(@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap'));
 @import url(@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap'));
- 
+ @font-face{
+	font-family:Helsinki XXL;
+	src:url(HelsinkiXXL-Thin.ttf);
+}
 *{
     padding: 0;
     margin: 0 auto;
@@ -40,7 +43,7 @@ header a:hover{
 .aboutme p{
 display: flex;
 flex-wrap: wrap;
-font-family: 'Red Hat Text', sans-serif;
+font-family: 'Helsinki XXL';
 font-size:25px;
 width: 50%;
 
