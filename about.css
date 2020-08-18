@@ -4,6 +4,7 @@
 	font-family:Helsinki XXL;
 	src:url(HelsinkiXXL-Thin.ttf);
 }
+
 *{
     padding: 0;
     margin: 0 auto;
@@ -52,6 +53,8 @@ margin-top: 5%;
 margin-left: 3%;
 padding-left:2%;
 padding-right: 5%;
+
+background-color:#3c485e;
 
 }
 
