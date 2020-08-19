@@ -1,8 +1,5 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,300&family=Red+Hat+Display:wght@500&family=Rubik+Mono+One&display=swap');
-@font-face{
-	font-family:Helsinki XXL;
-	src:url(HelsinkiXXL-Thin.ttf);
-}
+@import url(@import url('https://fonts.googleapis.com/css2?family=NTR&family=Overpass:ital,wght@1,100;1,200;1,300&family=Red+Hat+Text:wght@500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -67,8 +64,7 @@ hr{
 
 
 .entry-title {
-    font-family:Helsinki XXL;
-    style:thin;
+   font-family: 'NTR', sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin: 1.5rem 0;
