@@ -32,6 +32,9 @@ header a:hover{
 	background-color: #ff8fa4;
 
 }
+hr{
+	border:2px solid #003cfe;
+}
 
 .portfolio {
     display: flex;
