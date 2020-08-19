@@ -32,8 +32,13 @@ header a:hover{
 	background-color: #ff8fa4;
 
 }
-hr{
-	border:2px solid #003cfe;
+hr{	
+	margin:2.5%;
+	border:1px solid #003cfe;
+	width:48%;
+	position:relative;
+	
+	
 }
 
 .portfolio {
