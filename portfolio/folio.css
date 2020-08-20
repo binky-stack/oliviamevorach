@@ -65,9 +65,26 @@ footer a{
 }
 
 
-.images img{
+.images img, .image img{
    
     height: 450px;
     max-height: 700px;
  
+}
+
+.image{
+    display: flex;
+   flex-wrap: wrap;
+   width: 50%;
+}
+
+#hide{
+    display: none;
+}
+
+.two:hover #hide{
+    display: flex;
+position: absolute;
+width: 10%;
+height: 100px;
 }
