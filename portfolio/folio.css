@@ -76,7 +76,10 @@ footer a{
     display: flex;
    flex-wrap: wrap;
    width: 50%;
-   justify-content:flex-start;
+}
+
+.image img{
+    flex-shrink:3;
 }
 
 
