@@ -74,9 +74,11 @@ footer a{
 
 .image{
     display: flex;
-   flex-wrap: wrap-reverse;
-   width: 50%;
+   flex-wrap: wrap;
+   width: 70%;
 }
+
+
 
 
 #hide{
