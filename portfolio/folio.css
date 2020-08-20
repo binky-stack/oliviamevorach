@@ -1,0 +1,73 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,300&family=Red+Hat+Display:wght@500&family=Rubik+Mono+One&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: bisque; 
+   font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex{
+    flex-shrink: 5;
+    flex-grow: 2;
+    justify-content: flex-start;
+}
+
+.text{
+    margin: 2%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.text a{
+    color: black;
+}
+
+.text img{
+    display: none;
+}
+
+.text b:hover img {
+display: flex;
+position: absolute;
+width: 10%;
+height: 100px;
+}
+
+footer{
+    margin: 2%;
+    font-family: 'Overpass', sans-serif;
+    font-size:17px;
+}
+
+footer a{
+    color: black;
+    font-family: 'Overpass', sans-serif;
+    
+}
+/* images */
+
+.images{
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+  
+}
+
+
+.images img{
+   
+    height: 450px;
+    max-height: 700px;
+ 
+}
