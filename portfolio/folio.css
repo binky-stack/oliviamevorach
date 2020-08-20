@@ -78,11 +78,6 @@ footer a{
    width: 50%;
 }
 
-.image img{
-    flex-shrink:1;
-}
-
-
 
 #hide{
     display: none;
