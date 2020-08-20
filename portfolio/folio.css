@@ -75,7 +75,7 @@ footer a{
 .image{
     display: flex;
    flex-wrap: wrap;
-   width: 50%;
+   width: 40%;
 }
 
 #hide{
@@ -83,7 +83,7 @@ footer a{
 }
 
 .two:hover #hide{
-    display: flex;
+ display: flex;
 position: absolute;
 width: 10%;
 height: 100px;
