@@ -74,7 +74,7 @@ footer a{
 
 .image{
     display: flex;
-   flex-wrap: wrap;
+   flex-wrap: wrap-reverse;
    width: 50%;
 }
 
