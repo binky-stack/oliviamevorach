@@ -54,16 +54,17 @@ p:hover{
 }
 
 .flexy{
-	display: flex;
-	flex-wrap: nowrap;
+display: flex;
+flex-wrap: nowrap;
 flex-shrink: 5;
-    flex-grow: 2;
-    justify-content: flex-start;
+   flex-grow: 2;
+   justify-content: flex-start;
 }
+.sidebar{
+	width:90%;}
 
 .sidebar img{
-	width: 50%;
-	height: 350px;
+height: 350px;
     max-height: 700px;
  
 
