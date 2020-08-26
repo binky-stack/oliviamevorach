@@ -1,14 +1,7 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap'));
-@import url(@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap'));
- @font-face{
-	font-family:Helsinki XXL;
-	src:url(HelsinkiXXL-Thin.ttf);
-}
-
 *{
-    padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body{
@@ -18,41 +11,37 @@ body{
 	background-color:#eed974;
 }
 
-header{
-	font-size: 12px;
-	padding: 20px 0 0 3%;
+h1{
+font-size: 25px;
+padding: 0.5em;
 }
-header a{
-	text-decoration: none;
+
+h1 a{
+color: #ef3e4a;
+text-decoration: none;
+}
+
+h1 a:hover{
 	color: #3c485e;
 }
 
-header a:hover{
-	color:#ef3e4a;
+.intro{
+	padding:5rem;
+	line-height: 209%;
+	margin-top: 7%;
+
 }
 
+.sidebar{
+	background: #3c485e;
+	padding: 1em;
+	margin-top: 15%;
+	margin-left: 25%;
+}
 
-
-.aboutme{
+.wrapper{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-
-	width: 100%;
-}
-
-.aboutme p{
-display: flex;
-flex-wrap: wrap;
-font-family: 'Helsinki XXL';
-font-size:25px;
-width: 50%;
-
-line-height: 190%;
-margin-top: 5%;
-margin-left: 3%;
-padding-left:2%;
-padding-right: 5%;
 
 }
 
@@ -69,58 +58,31 @@ font-size: 50px;
 .fa-instagram {
 
  color:#ff8fa4;
- margin-left: 48%;
- padding: 5% 0 5% 0;
 
 }
 
-.aboutme .me img{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 15%;
-
-	width: 50%;
-	height:auto;
-
-
-
-	border: 4px solid #3c485e;
+img{
+	width: 100%;
 	
+	mix-blend-mode:luminosity;
 }
 
-.me img:hover{
-	border: 4px solid #ef3e4a;
-}
 
-@media screen and (max-width: 600px) {
-     .aboutme p{
-     	width: 100%;
-	 padding-left: 5%;
-      padding-right: 5%;
-     }
-      
-   }
-   @media screen and (max-width: 500px) {
-     .aboutme p{
-     	width: 100%;
-	       padding-left: 5%;
-      padding-right: 5%;
-     }
-      
-   }
-   @media screen and (max-width: 400px) {
-     .aboutme p{
-     	width: 100%;
-	       padding-left: 5%;
-      padding-right: 5%;
-     }
-      
-   }
-   @media screen and (max-width: 300px) {
-     .aboutme p{
-     	width: 100%;
-	  padding-left: 5%;
-      padding-right: 5%;
-     }
-      
-   }
+
+
+@media (min-width: 900px){
+	.wrapper{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.intro{
+		width: 50%;
+		margin-left: auto;
+	}
+
+	.sidebar{
+		width: 50%;
+		margin-right: auto;
+		}
+}
