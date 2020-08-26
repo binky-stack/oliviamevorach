@@ -31,9 +31,6 @@ h1 a:hover{
    flex-wrap: wrap;
    width: 100%;
    justify-content: center;
-
-   flex-shrink: 5;
-    flex-grow: 2;
 }
 
 .intro{
@@ -43,7 +40,7 @@ h1 a:hover{
 
 .txt{
 
-	width: 50%;
+	width: 90%;
 	
 }
 
@@ -59,6 +56,9 @@ p:hover{
 .flexy{
 	display: flex;
 	flex-wrap: nowrap;
+flex-shrink: 5;
+    flex-grow: 2;
+    justify-content: flex-start;
 }
 
 .sidebar img{
