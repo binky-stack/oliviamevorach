@@ -8,7 +8,7 @@ body{
 
     font-family: 'Rubik Mono One', sans-serif;
    	color:red;
-	background-color:#eed974;
+	background-color:black;
 }
 
 h1{
@@ -25,64 +25,72 @@ h1 a:hover{
 	color: #3c485e;
 }
 
-.intro{
-	padding:5rem;
-	line-height: 209%;
-	margin-top: 7%;
-
-}
-
-.sidebar{
-	background: #3c485e;
-	padding: 1em;
-	margin-top: 15%;
-	margin-left: 25%;
-}
 
 .wrapper{
 	display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: center;
+
+   flex-shrink: 5;
+    flex-grow: 2;
+}
+
+.intro{
+	display:flex;
 	flex-wrap: wrap;
+}
+
+.txt{
+
+	width: 50%;
+	
+}
+
+p:hover{
+	color: #ff8fa4;
+}
+
+.intro, .sidebar{
+	padding: 3% 5% 0 5%;
 
 }
 
+.flexy{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.sidebar img{
+	width: 50%;
+	height: 350px;
+    max-height: 700px;
+ 
+
+}
+
+
+img{
+mix-blend-mode:luminosity;
+
+}
+
+img:hover{
+	mix-blend-mode: hard-light;
+}
+
+.fa-instagram {
+
+ color:#ff8fa4;
+}
+
 .fa{
-width: 5%;
-font-size: 50px;
+width:5%;
+font-size:30px;
 
  text-decoration: none;
 }
 .fa:hover{
 	color: #ef3e4a;
-
-}
-.fa-instagram {
-
- color:#ff8fa4;
-
 }
 
-img{
-	width: 100%;
-	
-	mix-blend-mode:luminosity;
-}
-
-
-
-
-@media (min-width: 900px){
-	.wrapper{
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.intro{
-		width: 50%;
-		margin-left: auto;
-	}
-
-	.sidebar{
-		width: 50%;
-		margin-right: auto;
-		}
-}
