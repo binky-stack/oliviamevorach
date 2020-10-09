@@ -1,99 +1,119 @@
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body{
+  background-color:#141414;
+}
 
-    font-family: 'Rubik Mono One', sans-serif;
-   	color:#3c485e;
-	background-color:#141414;
+.container-1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5% 2% 0 0;
+}
+
+.box{
+  justify-content: space-between;
+}
+
+.one, .two, .three, .four {
+  margin-left: 45%;
+  margin-bottom: 1rem;
+  width: 57%;
+  border: 1px solid #e94049;
+  padding: 1% 0 0 0;
+  }
+
+.five{
+  position: fixed;
+  align-self: flex-start;
+  text-align: center;
+  padding: 0.5rem -2rem;
+  opacity: 70%;
+  z-index: -1;
+}
+
+.five img{
+  border: 2px solid #e94049; 
 }
 
 h1{
-font-size: 20px;
-padding: 0.5em;
+  padding: 3%;
+  font-family:'encode sans',sans-serif;
 }
-
 h1 a{
-color: #ef3e4a;
-text-decoration: none;
+  color: #e94049;
+  text-decoration: none;
 }
 
 h1 a:hover{
-	color: #3c485e;
+  color: blue;
 }
 
-
-.wrapper{
-	display: flex;
-   flex-wrap: wrap;
-   width: 100%;
-   justify-content: center;
+h2 {
+color: bisque;
+padding: 2%;
+font-family: 'Encode Sans', sans-serif;
+letter-spacing: 0.03em;
 }
 
-.intro{
-	display:flex;
-	flex-wrap: wrap;
+p {
+  color:antiquewhite;
+  padding: 2%;
+  font-family: 'Sentinel-Light';
 }
 
-.txt{
-
-	width: 90%;
-	
+p a{
+  color: #ee8da3;
 }
 
-p:hover{
-	color: #ff8fa4;
-}
-
-.intro, .sidebar{
-	padding: 3% 5% 0 5%;
+.fa:hover {
+  opacity: 0.7;
 
 }
-
-.flexy{
-display: flex;
-flex-wrap: nowrap;
-flex-shrink: 5;
-   flex-grow: 2;
-   justify-content: flex-end;
-}
-.sidebar{
-	width:90%;
-border:2px solid #ef3e4a;
+.container-2{
+  display: flex;
 }
 
-.sidebar img{
-height: 350px;
-    max-height: 700px;
- 
+#para{
 
-}
+  margin-top:5%;
 
+  width: 50%;
+  height: 100px;
+  background: #ee8da3;
+  opacity: 50%; 
+  transform: skewX(50deg);
+  }
+#paratwo{
+ margin-top: 5%;
+  width: 50%;
+  height: 100px;
 
-img{
-mix-blend-mode:luminosity;
+  background: #ee8da3;
+  opacity: 50%; 
+  transform: skewX(-50deg);
+  }
 
-}
+  @media screen and (max-width:1024px)and (min-width:300px){
 
-img:hover{
-	mix-blend-mode: hard-light;
-}
+    .container-1{
+      margin: 2%;
+      display: flex;
+      justify-content: center;
+  
+    }
 
-.fa-instagram {
-
- color:#ff8fa4;
-}
-
-.fa{
-width:5%;
-font-size:30px;
-
- text-decoration: none;
-}
-.fa:hover{
-	color: #ef3e4a;
-}
-
+    .five img{
+      opacity: 10%;
+    }
+   
+    .one, .two, .three, .four {
+      width: 100%;
+      }
+    }
