@@ -5,7 +5,7 @@ function setup() {
   
 noFill();
 colorMode(RGB, 9, 20, 255, 10);
-strokeWeight(65);
+strokeWeight(45);
 stroke(30, 500, 100, 0.3);
 ellipse(10,10,30,30);
 ellipse(70,70,90,90);
