@@ -47,7 +47,7 @@ Canvas{
 }
 
 .nav p a{
-	color:#855cdc;  
+color:#ef3e4a; 
   font-size:5vw;
   text-align: center;
 	text-decoration:none;
@@ -63,7 +63,7 @@ Canvas{
 }
 
 .nav p a:hover{
-	color: #f4c7ee;
+	color: #855cdc;
 }
 
 /*nav end*/
