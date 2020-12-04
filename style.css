@@ -1,0 +1,114 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap'));
+@import url(@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap'));
+ 
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat947.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat947.png), auto !important;
+}
+
+body{
+  font-family: 'Rubik Mono One', sans-serif;
+  overflow-x:hidden;
+	color:#ef3e4a;
+  background-color:#d087bd;
+}
+
+/*page header*/
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:50px 0 0 8%;
+}
+header{
+  z-index:9999;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 4vw;
+	margin-top: 10px;
+  padding-bottom: 10%;
+}
+
+Canvas{
+  margin-top: -100%;
+  z-index: -9999;
+}
+/*page header end*/
+
+.nav {
+  z-index:9999;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.nav p a{
+	color:#ef3e4a;  
+  font-size:5vw;
+  text-align: center;
+	text-decoration:none;
+}
+
+
+.nav p:before{
+  content: "\A673";
+  float: left;
+  display: block;
+  width: 1.2em;
+  font-size: 13vh;
+}
+
+.nav p a:hover{
+	color: #f4c7ee;
+}
+
+/*nav end*/
+
+@media screen and (max-width:5024px)and (min-width:1600px){
+  Canvas{
+    visibility: hidden;
+  }
+}
+
+
+
+@media screen and (max-width:1024px)and (min-width:200px){
+
+  body{
+    margin:auto;
+    overflow-x: hidden;
+  }
+  .page{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:50px 0 0 0!important;
+  }
+
+  h1{
+    font-size: 13vw;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+ .nav p{
+   padding-bottom: 15%;
+ }
+
+  Canvas{
+    visibility: hidden;
+  }
+
+  .nav p:before{
+    content: "\A673";
+    float: left;
+    display: block;
+    width: 1.2em;
+    font-size: 38px;
+  }
+  
+}
