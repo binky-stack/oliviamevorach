@@ -5,7 +5,7 @@ function setup() {
   
 noFill();
 colorMode(RGB, 9, 20, 255, 10);
-strokeWeight(95);
+strokeWeight(185);
 stroke(30, 500, 100, 0.3);
 ellipse(10,10,30,30);
 ellipse(70,70,90,90);
@@ -24,9 +24,9 @@ function draw() {
   }
 
   ellipse(x, y, r, r);
-  y = y + 3000;
+  y = y + 300;
 
-  if(y > 100) {
-    y = 600;
+  if(y > 60) {
+    y = 10;
   }
 }
