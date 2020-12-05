@@ -195,11 +195,13 @@ text-align: center;
   }
 
   .custom:after,.song:after{
-    display: none;
+    display: none!important;;
+    visibility:hidden!important;;
   }
   .custom:hover:after,
   .song:hover:after{
-   display: none;
+   display: none!important;;
+    visibility:hidden!important;;
   }
 
 }
