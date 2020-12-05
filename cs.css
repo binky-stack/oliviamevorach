@@ -92,9 +92,10 @@ h2 a:hover{
 }
 
 
-img{
- width: 75%; height: 300px; 
- min-width: 90%;
+ img{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
