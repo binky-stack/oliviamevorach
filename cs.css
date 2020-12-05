@@ -185,6 +185,7 @@ text-align: center;
   }
 
   img {
+     margin-left:3%;
     float: left;
     width: 80%;
     opacity: 50%;
