@@ -1,0 +1,218 @@
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color:#696d7d;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+/*goodbye scroll bars!!!======*/
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+h1 a{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-style: inherit;
+  color: black;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+h1 a:hover{
+  opacity: .1;
+}
+
+/*kind of it's own stuff u know =====================*/
+
+.container{
+  padding-top: 5%;
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/*content time=====================*/
+
+.project-name {
+  position: fixed;
+  margin-top: 9ch;
+  z-index: 999;
+}
+
+h2{
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 0.2em;
+  line-height: 150%;
+   border-bottom: 2px solid #f9f756;
+}
+
+h2 a{
+  color: black;
+  text-decoration: none;
+}
+
+h2 a:hover{
+  opacity: 0.7;
+}
+
+.project-image{
+  margin-top: 70px;
+  width: 100%;
+  padding-bottom: 9%;
+  text-align: center;
+}
+
+img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+img:hover{
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+  cursor: s-resize;
+}
+
+h3{
+  padding-top: 1.5%;
+  font-family: 'Sentinel';
+  letter-spacing: 0.03em;
+  font-weight:medium;
+}
+
+p{
+  font-style: italic;
+  font-family: 'Sentinel';
+  padding-top: 0.3%;
+  letter-spacing: 0.02em;
+}
+
+/*label=====================*/
+
+.custom:after{
+  content:'';
+}
+.custom:hover:after{
+  content:' website';
+  color: #f9f756;
+}
+
+.song:after{
+  content:'';
+}
+.song:hover:after{
+  content:' song';
+  color: tomato;
+}
+/* footer junk :) =====================*/
+
+footer{
+text-align: center;
+}
+
+.copy{
+  margin:2% 3% 0.5% 3%;
+}
+
+#myBtn{
+  margin-left: 47%;
+  text-align: center!important;
+  font-size: 18px;
+  background-color: transparent;
+  color:black;
+  padding: 0.7%;
+}
+
+.btn-toggle{
+  font-size: 18px;
+  background-color: transparent;
+  color:black;
+}
+/*media queries=====================*/
+
+@media screen and (max-width:800px)and (min-width:200px){
+
+  #myBtn{
+    display:none !important;
+    }
+
+  .nav{
+    justify-content: space-around;
+    font-size: 1.5vh;
+    margin-top: 2%;
+  }
+
+  .project-name{
+    background-color: black;
+    z-index: 999;
+  }
+
+  h2 a{
+    color:#415c87!important;
+  }
+
+  img {
+    margin: 0 auto!important;
+    width: 87%;
+    opacity: 50%;
+  }
+
+  iframe{
+    opacity: 50%;
+  }
+
+  h3, p{
+    display: none;
+  }
+
+  .custom:after,.song:after{
+    display: none;
+  }
+  .custom:hover:after,
+  .song:hover:after{
+   display: none;
+  }
+
+}
+
+/*change color query*/
+
+@media (prefers-color-scheme: dark) {
+  body { 
+    color: black;
+    background-color:  #696d7d;
+  }
+ 
+  body.light-theme {
+    color: blue;
+    background-color: #e5c5b5;
+  }
+}
