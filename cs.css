@@ -171,6 +171,7 @@ text-align: center;
   }
 
   .project-name{
+     width: 60%;
     background-color: black;
     z-index: 999;
   }
