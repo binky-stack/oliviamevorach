@@ -185,7 +185,7 @@ text-align: center;
   }
 
   img {
-    align-self: center;
+    float: left;
     width: 80%;
     opacity: 50%;
   }
