@@ -161,7 +161,7 @@ text-align: center;
 
 @media screen and (max-width:800px)and (min-width:200px){
     body{
-        overflow:hidden;
+        overflow-x:hidden;
     }
   #myBtn{
     display:none !important;
