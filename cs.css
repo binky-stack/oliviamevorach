@@ -181,12 +181,12 @@ text-align: center;
   }
 
   .project-image{
-    width:100%;
+    width:80%;
   }
 
   img {
     align-self: center;
-    width: 90%;
+    width: 80%;
     opacity: 50%;
   }
 
