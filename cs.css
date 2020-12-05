@@ -42,7 +42,6 @@ h1 a:hover{
 
 .container{
   padding-top: 5%;
-  justify-content: flex-start;
 }
 
 .row {
@@ -53,10 +52,11 @@ h1 a:hover{
 }
 
 .column {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  flex-wrap: wrap;
+  flex:1;
 }
 
 /*content time=====================*/
@@ -84,18 +84,20 @@ h2 a:hover{
 }
 
 .project-image{
-  margin-top: 20px;
-  max-width: 100%;
-    flex-wrap: wrap;
-  padding-bottom: 9%;
-  text-align: center;
+width: 80%;
+padding-bottom: 10%;
+align-self: flex-end;
+text-align: center;
 }
 
 
+div img{
+max-width: 700px;
+width: 100%;
+min-width: 0;
+}
+
 img{
-  width: 100%;
-  max-width: 550px;
-  height: auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -186,14 +188,11 @@ text-align: center;
     color:#415c87!important;
   }
 
-  .project-image{
-    width:80%;
-  }
-
-  img {
+  ..project-image{
     width: 80%;
-    height: auto;
-  }
+    padding-bottom: 10%;
+    align-self: flex-start!important;
+    }
     
   h3, p{
     display: none;
