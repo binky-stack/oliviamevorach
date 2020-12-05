@@ -160,7 +160,9 @@ text-align: center;
 /*media queries=====================*/
 
 @media screen and (max-width:800px)and (min-width:200px){
-
+    body{
+        overflow:hidden;
+    }
   #myBtn{
     display:none !important;
     }
@@ -193,8 +195,6 @@ text-align: center;
 
   iframe{
     opacity: 50%;
-    width: 100%;
-     height:auto;
   }
 
   h3, p{
