@@ -85,13 +85,16 @@ h2 a:hover{
 
 .project-image{
   margin-top: 10%;
-  width: 100%;
+  max-width: 100%;
     flex-wrap: wrap;
   padding-bottom: 9%;
   text-align: center;
 }
 
+
 img{
+ width: 75%; height: 300px; 
+ min-width: 90%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -187,16 +190,10 @@ text-align: center;
   }
 
   img {
-     margin-left:4.5%;
-    float: left;
     width: 80%;
-    opacity: 50%;
+    height: auto;
   }
-
-  iframe{
-    opacity: 50%;
-  }
-
+    
   h3, p{
     display: none;
   }
