@@ -84,7 +84,7 @@ h2 a:hover{
 }
 
 .project-image{
-  margin-top: 70px;
+  margin-top: 10%;
   width: 100%;
   padding-bottom: 9%;
   text-align: center;
@@ -171,7 +171,6 @@ text-align: center;
   }
 
   .project-name{
-     width: 60%;
     background-color: black;
     z-index: 999;
   }
