@@ -193,7 +193,8 @@ text-align: center;
 
   iframe{
     opacity: 50%;
-    width: fit-content;
+    width: 100%;
+     height:auto;
   }
 
   h3, p{
