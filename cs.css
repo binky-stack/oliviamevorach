@@ -180,9 +180,13 @@ text-align: center;
     color:#415c87!important;
   }
 
+  .project-image{
+    width:100%;
+  }
+
   img {
-    margin: 0 auto!important;
-    width: 87%;
+    align-self: center;
+    width: 90%;
     opacity: 50%;
   }
 
