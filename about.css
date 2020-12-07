@@ -1,0 +1,69 @@
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color:green;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.column{
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav{
+display: flex;
+padding-left: 5%;
+flex-wrap: nowrap;
+background-color: rgb(202, 163, 240);
+}
+
+li{
+  
+  list-style: none;
+}
+
+li a{
+  color: brown;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.5;
+  color: black;
+}
+
+h2, p{
+  font-family: 'Sentinel';
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+  font-size:3vh;
+}
+
+.color{
+  color:brown;
+}
+
+.email{
+  color: yellowgreen;
+}
+
+p{
+  line-height: 200%;
+}
+
