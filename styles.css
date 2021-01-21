@@ -1,0 +1,107 @@
+*, *:before, *:after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat947.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat947.png), auto !important;
+}
+
+body{
+ /* font-family: 'Helsinki XXL', sans-serif; */
+	color:#ef3e4a;
+  background-color:black;
+  /*#d087bd;*/
+}
+
+/*page header*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.me{
+  font-family: 'Gruppo', cursive;
+  letter-spacing: 0.2em;
+  font-size: 7vw;
+  text-align: right;
+  color: silver;
+}
+
+
+p{
+  font-family: 'Pinkerston';
+  font-size: 5vw;
+  margin-top: 5%;
+  letter-spacing: 0.2em;
+}
+
+p a{
+  color: #ef3e4a;
+  opacity: 70%;
+}
+
+.me{
+  margin-top: 2%;
+}
+
+#line{
+  margin-top: 2%;
+  border: 3px solid #ef3e4a;
+  width: 50%;
+  float: right;
+  opacity: 55%;
+}
+
+.p:before{
+  content: "\A673";
+  float: left;
+  display: block;
+  width: 1.2em;
+  font-size: 5vh;
+}
+
+.nav p a:hover{
+	color: whitesmoke;
+}
+
+span p{
+  text-align: right;
+}
+
+
+
+@media screen and (max-width:1024px)and (min-width:200px){
+
+  body{
+   background-color:  #EBB7FF;
+  }
+
+  .me{
+    color: #ef3e4a;
+    text-align: center;
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  p{
+    padding: 15%;
+    font-size: 7vw;
+  }
+
+  .p:before{
+    content: "\A673";
+    float: left;
+    display: block;
+    width: 1.2em;
+    color: yellow;
+    font-size: 5vh;
+  }
+
+}
