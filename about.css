@@ -66,3 +66,23 @@ a:hover{
 #color{
   color:#eff1eb;
 }
+
+@media screen and (max-width:768px)and (min-width:200px){
+
+  body{
+    margin: 0;
+    text-align: center;
+  }
+  .two{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resume{
+    font-size: 14px;
+  }
+
+
+}
