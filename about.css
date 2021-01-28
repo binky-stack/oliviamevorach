@@ -2,22 +2,54 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat947.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat947.png), auto !important;
 }
 
 body{
  /* font-family: 'Helsinki XXL', sans-serif; */
-	color:#ef3e4a;
-  background-color:hsl(123,17,80);
+	color:black;
+  background-color:black;
+  font-family: 'Fraunces', cursive;
+  /*#d087bd;*/
 }
 
 
-.nav{
+.container{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 2%;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card{
+  margin-top: 15%;
+}
+
+.one{
+  background-color: #ED8E87;
+  padding: 4.3% 4%;
+}
+
+.two{
+  background-color:#eff1eb;
+  padding: 1.85% 2%;
+}
+
+.me{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+p{
+  line-height: 200%;
+  font-size: large;
+  letter-spacing: 0.25em;
+}
+
+.resume{
+  font-size: 25px;
+  text-align: right;
 }
 
 a{
@@ -26,85 +58,11 @@ a{
 }
 
 a:hover{
-opacity: .8;
+  opacity: 0.4;
+  color: #C4DECF;
+  cursor: auto;
 }
 
-h1{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#color{
+  color:#eff1eb;
 }
-
-/*page header*/
-
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 10%;
-}
-
-p{
-  padding-top: 10%;
-  line-height: 150%;
-  letter-spacing: 0.1em;
-  align-self:center;
-  font-family: 'Fraunces', serif;
-}
-
-.u{
-  border-bottom: 2px solid black;
-}
-
-.fade {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-  animation-duration: 5s;
-  
- color: black;
-}
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.effect{
-    width: 200px;
-    height: 200px;
-    background-color: lightpink;
-    position: relative;
-    animation-name: example;
-    animation-duration: 6s;
-    animation-timing-function: linear;
-    animation-delay: 9s;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-  }
-  
-  @keyframes example {
-    0%  {background-color:lightgreen; left:0px; top:0px;}
-    25%  {background-color:lightcyan; left:200px; top:0px;}
-    50%  {background-color:black; left:200px; top:0px;}
-  }
-
-  @media screen and (max-width:768px)and (min-width:200px){
-    .fade,.effect{
-      animation: none;
-    }
-
-    .u{
-    border-bottom: none;
-    color: black;
-    }
-    .nav{
-      flex-direction: column;
-    }
-
-  }
