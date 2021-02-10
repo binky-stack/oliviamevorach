@@ -18,6 +18,20 @@
   text-decoration: none;
   font-size: 20px;
 }
+h1{
+    color: red;
+    letter-spacing: 0.05em;
+    line-height: 120%;
+  }
+
+  h3{
+    padding-top: 5%;
+  }
+  p{
+    padding-top: 4%;
+    letter-spacing: 0.05em;
+    line-height: 180%;
+  }
 
 a{
 color:black;
@@ -105,4 +119,8 @@ a:hover{
       filter: grayscale(0%);
     }
 
+	  
+    h1{
+      color: black;
+    }
   }
