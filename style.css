@@ -42,6 +42,7 @@ a:hover{
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 3%;
   grid-row-gap: 5%;
+  margin:5% 0 3.5% 0;
   }
   
   .div1 { grid-area: 1 / 2 / 2 / 3; }
