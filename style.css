@@ -71,6 +71,11 @@ a:active{
   color: blue;
 }
 
+.clickme a{
+opacity:100%;
+color:blue;
+}
+
 .abt{
   text-orientation: sideways;
   writing-mode: vertical-rl;
