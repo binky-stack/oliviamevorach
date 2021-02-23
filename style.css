@@ -71,9 +71,10 @@ a:active{
   color: blue;
 }
 
-.clickme a{
+.clickme {
 opacity:100%;
 color:blue;
+text-decoration: underline;
 }
 
 .abt{
