@@ -86,3 +86,8 @@ li{list-style-type: none;line-height: 210%;}
   background-color:none;
   overflow: hidden;
 }
+
+@media screen and (max-width: 980px) and (min-width: 200px){
+	body{
+		overflow-x: hidden;}
+	}
