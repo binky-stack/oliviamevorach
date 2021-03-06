@@ -87,6 +87,11 @@ scrollbar-width: none;  /* Firefox */
     opacity: 100;
   }
 
+   .right-col{
+    margin: 0 auto;
+    padding: 1%;
+  }
+
   .post{
     border-bottom: 4px solid palegreen;
   }
