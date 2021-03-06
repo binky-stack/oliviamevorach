@@ -86,8 +86,48 @@ li{list-style-type: none;line-height: 210%;}
   background-color:none;
   overflow: hidden;
 }
-
 @media screen and (max-width: 980px) and (min-width: 200px){
-	body{
-		overflow-x: hidden;}
+	body,.container{
+    margin: 0 auto;
+    overflow-x: hidden!important;
+  }
+
+  body{
+    background-image:url(mesh.png);
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: right;
+    text-rendering: optimizeLegibility;
+  }
+
+  .date,.title{
+    padding-bottom: 5%;
+  }
+
+  .title,.title-two{
+    color:darkblue;
+    letter-spacing: 0.5em;
+  }
+
+  h3.date{
+    text-decoration: underline;
+  }
+
+  li{
+    padding-right: 4.5%;
+  }
+
+  li a:active{
+    text-decoration: line-through;
+  }
+
+  p{
+    padding: 9%;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 50px 50px;
+    border-bottom: 1px solid orangered;
+  }
+
 	}
