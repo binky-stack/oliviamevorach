@@ -114,8 +114,8 @@ li{list-style-type: none;line-height: 210%;}
     text-decoration: underline;
   }
 
-  li{
-    padding-right: 4.5%;
+ ul li{
+    padding-right: 4.5%!important;
   }
 
   li a:active{
