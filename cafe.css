@@ -86,8 +86,10 @@ li{list-style-type: none;line-height: 210%;}
   background-color:none;
   overflow: hidden;
 }
+
 @media screen and (max-width: 980px) and (min-width: 200px){
-	body,.container{
+
+body,.container{
     margin: 0 auto;
     overflow-x: hidden!important;
   }
@@ -114,8 +116,9 @@ li{list-style-type: none;line-height: 210%;}
     text-decoration: underline;
   }
 
- ul li{
-    padding-right: 4.5%!important;
+ li{
+    margin-right: 3.5%;
+    padding: 3%;
   }
 
   li a:active{
@@ -130,4 +133,4 @@ li{list-style-type: none;line-height: 210%;}
     border-bottom: 1px solid orangered;
   }
 
-	}
+}
