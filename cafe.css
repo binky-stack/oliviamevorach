@@ -96,11 +96,11 @@ body,.container{
 
   body{
     background-image:url(mesh.png);
-    background-color: black;
     background-size: cover;
     background-attachment: fixed;
     background-position-x: right;
     text-rendering: optimizeLegibility;
+    background-repeat: no-repeat;
   }
 
   .date,.title{
