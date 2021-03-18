@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styli.css" /> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+  </head>
+
+  <body>
+<header><h1 class="logo">Example of where Logo can go</h1></header>
+
+<nav class="navbar">
+  
+    <button class="accordion one"><a href="">Home</a></button>
+      <div class="panel">
+        <p class="txt"></p>
+      </div> 
+
+     <button class="accordion two">Our Statement</button>
+    <div class="panel">
+      <p class="txt">Passionate about process & progress</p>
+    </div>
+
+    <button class="accordion two">Contact</button>
+    <div class="panel">
+      <p class="txt">Hi! Do you want to contribute? Give us a shout at xyzzyx@gmail.com!</p>
+    </div>
+
+    
+
+  </nav>
+
+<div class="parent">
+
+  <div class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-up-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-down" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</div><!--parent cont. end-->
+
+<script>
+  AOS.init();
+</script>
+  
+  
+            <!--button js and label-->	
+		
+		<button onclick="topFunction()" id="myBtn" title="Back to top">Back to Top</button>
+    <script>
+
+                    window.onscroll = function() {scrollFunction()};
+
+                        function scrollFunction() {
+                            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                         document.getElementById("myBtn").style.display = "block";
+                             } else {
+                    document.getElementById("myBtn").style.display = "none";
+                         }
+                    }
+
+
+                function topFunction() {
+                 document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                        }
+    </script>
+		
+		
+		
+		
+		
+		
+	<!--button js end-->	
+  
+  
+  
+  
+ <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+  
+  </body></html>
