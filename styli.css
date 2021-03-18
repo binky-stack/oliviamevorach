@@ -144,7 +144,7 @@ img{
   #myBtn{
     margin-bottom:6%;
     position: fixed;
-    display: flex;
+    display: none;
    visibility: hidden!important;
     justify-content: center;
     bottom: 0px;
@@ -208,18 +208,18 @@ img{
   
 
   #myBtn{
-    margin-bottom:2.7%;
+    margin-bottom:5%;
+    border: none;
     position: fixed;
-    display: flex;
-    justify-content: center;
+    display: none;
+    width: 100%;
+
     bottom: 0px;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    border: none;
-    outline: none;
     background-color: transparent;
-    left: 30vw;
+    left: 0.5vw;
   }
 
 }
