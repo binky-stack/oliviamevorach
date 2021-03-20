@@ -10,39 +10,60 @@
 
   <body>
     
-    <header><h1 class="logo">Example of where Logo can go</h1></header>
+    <header>
+    <h1 class="logo">Words Matter Cafe</h1></header>
+    
 
+    <h2 class="left-icon"><span class="smiley">☺</span> &nbsp; Welcome ! Please select your preferred language below:</h2>
+<!--google translate-->
+
+    <div id="google_translate_element"></div>
+  <span class="dice"></span>
+            <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'zh-CN,zh-TW,en,ar,fr,ht,iw'}, 'google_translate_element');
+            }
+
+            </script>
+
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!--google translate end, nav begin-->
 <nav class="navbar">
-  
+
+  <ul>
+
     <button class="accordion one"><a href="">Home</a></button>
       <div class="panel">
         <p class="txt"></p>
       </div> 
 
-     <button class="accordion two">Our Statement</button>
-    <div class="panel">
-      <p class="txt">Passionate about process & progress</p>
-    </div>
+    <button class="accordion">Our Statement</button>
+      <div class="panel">
+        <p class="txt">Passionate about process & progress</p>
+      </div>
 
-    <button class="accordion two">Contact</button>
-    <div class="panel">
-      <p class="txt">Want to contribute? Give us a shout at xyzzyx@gmail.com!</p>
-    </div>
+      <button class="accordion">Contact</button>
+        <div class="panel">
+          <p class="txt">Want to contribute? Give us a shout at xyzzyx@gmail.com!</p>
+        </div>
+
+    </ul>
 
   </nav>
-
+<!--end nav-->
 <div class="parent">
 
   <div class="photo">
-   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+   <a href="topic"> <img src="sage.png" alt="m"> </a>
   </div>
 
   <div class="photo">
-   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+   <a href="topic"> <img src="sage.png" alt="m"> </a>
   </div>
 
-  <div class="photo">
-   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+ <div class="photo">
+   <a href="topic"> <img src="sage.png" alt="m"> </a>
   </div>
 
   <!--aos fades-->
@@ -75,29 +96,6 @@
 </div><!--parent cont. end-->
 
 
-<!--button js and label-->	
-		
-  <button onclick="topFunction()" id="myBtn" title="Back to top">Back to Top</button>
-  
-    <script>
-    var mybutton = document.getElementById("myBtn");
-
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-	<!--button js end-->	
   
   
  <script>
