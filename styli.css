@@ -109,9 +109,9 @@ a:hover, .accordion:hover, a:active{
 
 img{
   max-width: 100%;
-  height: auto;
+  height:auto;
   border-bottom: 3px solid #9CAF88;
-  border-right: 1px solid #9CAF88;
+  border-right: 1.3px solid #9CAF88;
 }
 
 img:hover{
@@ -131,10 +131,9 @@ img:hover{
 
 .photo{
   flex-wrap: wrap;
-  margin-top:1% ;
+  margin-top:0% ;
   padding: 2% 2% 15% 2%;
-  width: 30%;
-  height: auto;
+  width: 33%;
 }
 
 .smiley{
@@ -177,6 +176,7 @@ img:hover{
 
   .photo{
     width: 100%;
+    height: auto;
   }
 
   .navbar{
@@ -220,6 +220,7 @@ img:hover{
 
   .photo{
     width: 100%;
+    height: auto;
   }
 
   .navbar{
