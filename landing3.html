@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="saba.css" /> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+    <h1 class="logo">Words Matter Cafe</h1>
+    </header>
+
+    <div class="logo-2"><a href="/"><img style="border:none;" src="#" alt="graphic reading fringe center"/></a></div>
+
+    <h2 class="left-icon"><span class="smiley">☺</span> &nbsp; Welcome ! Please select your preferred language below:</h2>
+
+     <div class="wee"><a id="dice" href="#top"><span class="dice"></span></a></div>
+<!--google translate-->
+
+    <div id="google_translate_element"></div>
+ 
+            <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'zh-CN,zh-TW,es,en,ar,fr,ht,iw'}, 'google_translate_element');
+            }
+
+            </script>
+
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!--google translate end, nav begin-->
+
+<nav class="navbar">
+
+  <ul>
+
+   <!-- <button class="accordion one"><a href="">return</a></button>
+      <div class="panel">
+        <p class="txt"></p>
+      </div> -->
+
+    <button class="accordion">Our Statement</button>
+      <div class="panel">
+        <p class="txt">Passionate about process & progress</p>
+      </div>
+
+      <button class="accordion">Contact</button>
+        <div class="panel three">
+          <p class="txt">Want to contribute? Give us a shout at xyzzyx@gmail.com!</p>
+        </div>
+    
+    </ul>
+    
+  </nav>
+
+     <div class="box">
+         <h2 class="bottom-txt"> once you have selected your language, please continue to scroll down the page &nbsp;<span class="smiley">☺</span> </h2></div><!--end-->
+
+   <button class="accordion one"><a href="">return</a></button>
+      <div class="panel">
+        <p class="txt"></p>
+      </div> 
+  
+  <div id="top"></div>
+<!--end nav and junk-->
+<div class="parent">
+
+  <div class="photo">
+   <a href="topic"> <img src="https://i.imgur.com/CBh2YUz.png" alt="graphic with text asking what is feminism?"> </a> <h4>what is feminism?</h4>
+  </div>
+
+ <div class="photo"><p class="abc" style="margin-top:35%;">to select the topic that interests you, click on the graphic to the left or the right. as you continue to scroll on your desktop, the there will be three posts per row rather than two.</p>
+  </div>
+
+   <div class="photo">
+   <a href="topic"> <img id="feminism" src="https://i.imgur.com/cyIbukJ.png" alt="graphic with text asking how do you define intersectionality?"> </a>
+   <h4>how do you define intersectionality?</h4>
+  </div>
+
+  <!--aos fades-->
+
+  <div data-aos="fade-up-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-down" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <!--aos fades-->
+  <div data-aos="fade-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-up" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-left" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+</div><!--parent cont. end-->
+
+
+  
+  
+ <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+   AOS.init({disable: 'mobile'});
+</script>
+  </body></html>
