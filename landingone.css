@@ -19,6 +19,13 @@ body{
 #fade{
   opacity:1;
 }
+@media (max-width: 1024px) {
+  .fade [data-fade="1"] {
+    opacity: 1 !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
 
 /*
 body, html {
@@ -254,7 +261,7 @@ img:hover{
 
   body{
     margin: 0 auto!important;
-    height: 1000%;
+    height: 100%;
   }
   .navbar{
     text-align: center;
