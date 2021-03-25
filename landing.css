@@ -21,8 +21,13 @@ body, html {
 }
 
 .gradient {
+  /* The image used */
   background-image: url("moish.png");
-  height: 80vh;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
@@ -245,12 +250,25 @@ img:hover{
   body{
     margin: 0 auto!important;
   }
-
   .navbar{
     text-align: center;
   }
 
+.events-wrapper{
+  margin: 0 auto !important;
+  text-align: left !important;
+  width: 65%;
+}
 
+.events ol li a{
+margin: 0 auto !important;
+position: absolute;
+text-align: left !important;
+}
+
+.gradient{
+  height:5vh;
+}
   .accordion{
     background-color:transparent;
   }
@@ -260,9 +278,7 @@ img:hover{
   }
 
   .one{
-    bottom: 0px;
-    z-index: -9;
-    right: 5px;
+    display: none;
   }
 
   .bottom-txt{
@@ -272,6 +288,10 @@ img:hover{
    }
 
    h2{
+    text-align: center;
+   }
+
+   em{
     text-align: center;
    }
 
@@ -623,15 +643,13 @@ em{
 
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h4 {
-    font-size: 7rem;
+    font-size: 3rem;
   }
   .cd-horizontal-timeline .events-content em {
     font-size: 1rem;
     text-align: right;
   }
-  .cd-horizontal-timeline .events-content p {
-    font-size: 1.8rem;
-  }
+
 }
 
 /*keyframes=============================*/
