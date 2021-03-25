@@ -249,6 +249,7 @@ img:hover{
 
   body{
     margin: 0 auto!important;
+    height:1000%;
   }
   .navbar{
     text-align: center;
@@ -268,6 +269,7 @@ text-align: left !important;
 
 .gradient{
   height:5vh;
+background-attachment: scroll;
 }
   .accordion{
     background-color:transparent;
