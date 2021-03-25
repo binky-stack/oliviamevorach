@@ -280,12 +280,9 @@ text-align: left !important;
 }
 
 .dice{
- visibility: visible;
+ visibility: visible !important;
 }
-.gradient{
-  height:5vh;
-  background-attachment: scroll;
-}
+
   .accordion{
     background-color:transparent;
   }
@@ -311,6 +308,8 @@ text-align: left !important;
    em{
     text-align: center;
    }
+	
+h5{margin-bottom: 5% !important;}
 
    .abc{
      margin: 0!important;
