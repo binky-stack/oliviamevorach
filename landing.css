@@ -21,13 +21,8 @@ body, html {
 }
 
 .gradient {
-  /* The image used */
   background-image: url("moish.png");
-
-  /* Full height */
-  height: 50vh;
-
-  /* Create the parallax scrolling effect */
+  height: 80vh;
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
