@@ -4,8 +4,8 @@
   src: url("/FREE FAT FONT V1.1/OTF/FREEFATFONT-Regular.otf") format("otf");
 }
 @font-face {
-  font-family: "Casta";
-  src: url("/dirtyline-studio-casta/Dirtyline Studio - Casta-Thin.otf") format("otf");
+  font-family:'Rasputin';
+  src: url("/fonts/Rasputin.otf") format("otf");
 }
 
 *, *:before, *:after{
@@ -71,7 +71,7 @@ img:hover{
 }
 
 p{
-  font-family: "Casta";
+  font-family:'Rasputin';
   font-size: 3vw;
   width: 100%;
 }
@@ -323,7 +323,7 @@ text-align: left !important;
   background-image: url(lol.png);
   background-size: cover;
   font-size: smaller;
-  font-family: "Casta";
+  font-family:'Rasputin';
   height: auto;
   text-rendering: optimizeLegibility;
 }
@@ -407,7 +407,7 @@ text-align: left !important;
 .cd-horizontal-timeline .events-content h4 {
   display: flex;
   font-weight: bold;
-  font-family: "Casta";
+ font-family:'Rasputin';
   font-size: 1.5rem!important;
   justify-content: center;
   padding-bottom: 1%;
