@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family:'Rasputin';
-  src: url("/fonts/Rasputin.otf") format("otf");
+  src: url("fonts/Rasputin.otf") format("otf");
 }
 
 *, *:before, *:after{
