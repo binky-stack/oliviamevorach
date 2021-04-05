@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
-@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
-
+@font-face {
+  font-family: "South Amsterdam Demo";
+  src: url("/Users/olivbibaiab/Library/Fonts/South Amsterdam Demo.ttf") format("ttf");
+}
+@font-face {
+  font-family: "FREE FAT FONT";
+  src: url("/Users/olivbibaiab/Library/Fonts/FREEFATFONT-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Casta";
+  src: url("/Users/olivbibaiab/Library/Fonts/Dirtyline Studio - Casta-Thin.otf") format("otf");
+}
 
 *, *:before, *:after{
 	padding: 0;
@@ -10,209 +19,31 @@
 }
 
 body{
-  font-family: 'Fraunces', serif;
-  font-size: medium;
-  background-color: #fffff0;
+  background-color:#5f8fc5;
+  background-image: url(fish.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-x: hidden!important;
 }
 
-body, html {
-  height: 100vh!important;
+h2{
+  font-family: "FREE FAT FONT";
+  font-size: 3vw;
+  -webkit-text-stroke: 1px #c92c2c;
+  color: blanchedalmond;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
-.gradient {
-  /* The image used */
-  background-image: url("moish.png");
-
-  /* Full height */
-  height: 100vh;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
+.email{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-top: none;
 }
-
-header{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4.5% 0 3% 0;
-}
-
-/* title tags =====================*/
-
-h1{
-   /*margin-top:13%;
-  position: absolute;
-  padding-left: 39%;*/
-  font-weight: 500;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.9em;
-  color: #9CAF88;
-}
-
-h3{text-align:center;}
-/*
-h4{
-  text-align: right;
-  text-rendering: optimizeLegibility;
-  font-weight: 200;
-  padding-top: 1%;
-  border-right: 1px solid black;
-  letter-spacing: 0.07em;
-  margin-left: 4%;
-}*/
-/* instructions h2 tags=============================*/ 
-
-h2.left-icon{
-  /*margin: 2%;*/
-  font-size: small;
-  padding-bottom: 3%;
-  letter-spacing: 0.05em;
-  margin-top: 2%;
-  }
-
-.bottom-txt{
-  font-size: smaller;
-  letter-spacing: 0.06em;
-  text-align: center;
-  font-weight: 600;
-  padding: 1%;
-  margin-top:3%;
-  font-style: italic;
-  border-bottom:2px solid #9CAF88;
-  border-width: 4em;
-  border-right:  10px solid #bad4f3;
-  border-right-width: 10em;
-  border-left: 10px solid  #bad4f3;
-  border-left-width: 12em;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-}
-
-.box{
-display: flex;
-justify-content: center;
-margin-top:-23%;
-padding-bottom: 10%;
-}
-
-
-/* logo ================ */
-
-.logo-2{
-  display: none;
- }
-
-/*navigation =================================*/
-
-.navbar{ display:flex;padding-bottom: 21%;
-margin:0 .3% 0 .3%;border-left: 0.5px solid #5f8fc5;}
-
-.one{z-index: 999; position: fixed; bottom: 10px;margin-left: .3%;}
-
-.accordion{font-family: 'Sentinel'!important;font-weight: lighter;}
-
-
-/* nav + accordion ================================*/
-
-.accordion {
-  background-color: transparent;
-  color: black;
-  font-family: 'Fraunces', serif;
-  font-weight: 800;
-  letter-spacing: 0.1rem;
-  line-height: 209%;
-  text-transform: lowercase;
-  font-size: medium;
-  border: none;
-  outline: none;
-  caret-color: transparent;
-}
-
-.panel {
-  background-color: transparent;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  width: 100%;
-}
-
-/*google and instruction =======================*/
-
-#google_translate_element{
-  font-family: 'Sentinel'!important;
-  font-style: italic;
-  caret-color: #5f8fc5;
-  text-transform: lowercase;
-
- 
-  /*margin-left: 3.6%;*/
-}
-
-.goog-logo-link {
-  color:#5f8fc5!important;
- display: none !important;
-  
-} 
-
-.goog-te-gadget .goog-te-combo {
-  color: #849472!important;
-}
-
-div.goog-te-gadget {
-  color: transparent !important;
-}
-
-h2,h2.left-icon,#google_translate_element{
-  display: flex;
-  justify-content: center;
-}
-
-/*dice and smiley =======================*/
-
-.dice { /* HTML symbols */
-  font-size: 130px;
-  /*padding-left: 50%;*/
-  display: flex;
-  justify-content: center;
-  color: rgb(186,212,243);
-  margin-top: -4%;
-}
-
-#dice{
-  text-decoration: none; 
-}
-
-.dice::after {
-  content:'';
-  animation: rolling 6s linear infinite;
-}
-
-@keyframes rolling {
-  0% {content:'\2680'; color: black;}
-  20% {content:'\2681';}
-  40% {content:'\2682';}
-  60% {content:'\2683';}
-  80% {content:'\2684';}
-  100% {content:'\2685';}
-}
-
-.smiley{
-  font-size: large;
-  vertical-align:middle;
-}
-
-/* links! =====================================*/
-
-button a{ color: black; text-decoration: none;}
-
-a:hover, .accordion:hover, a:active{ color: #9CAF88;}
-
-/* images =======================================*/
-
 .parent{
   display: flex;
   flex-wrap: wrap;
@@ -223,8 +54,8 @@ a:hover, .accordion:hover, a:active{ color: #9CAF88;}
 img{
   max-width: 100%;
   height:auto;
-  border-bottom: 3px solid #9CAF88;
-  border-right: 1.3px solid #9CAF88;
+  border-bottom: 3px solid #5f8fc5;
+  border-right: 1.3px solid #5f8fc5;
 }
 
 img:hover{
@@ -237,10 +68,19 @@ img:hover{
 
 .photo{
   flex-wrap: wrap;
-  margin-top:0% ;
+  margin-top:0%;
   padding: 0% 2% 10% 2%;
   width: 33%;
+  opacity: 95%;
 }
+
+p{
+  font-family: "Casta";
+  font-size: 3vw;
+  width: 100%;
+}
+
+
 
 
 /*mobile ===================================*/
@@ -249,7 +89,7 @@ img:hover{
 
   body{
     margin: 0 auto!important;
-    height:1000%;
+    height: 100%;
   }
   .navbar{
     text-align: center;
@@ -267,9 +107,11 @@ position: absolute;
 text-align: left !important;
 }
 
-.gradient{
-  height:5vh;
-background-attachment: scroll;
+.dice{
+ visibility: visible;
+}
+h5{
+  margin-bottom: 5% !important;
 }
   .accordion{
     background-color:transparent;
@@ -420,7 +262,7 @@ background-attachment: scroll;
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #9CAF88;
+  background-color:#5f8fc5;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -480,11 +322,11 @@ background-attachment: scroll;
   pointer-events: none;
 }
 .cd-horizontal-timeline .events a.selected::after {
-  background-color:#9CAF88;
-  border-color: #9CAF88;
+  background-color:blanchedalmond;
+  border-color: blanchedalmond;
 }
 .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #9CAF88;
+  border-color: blanchedalmond;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -521,9 +363,10 @@ background-attachment: scroll;
   -webkit-transition: border-color 0.3s;
   -moz-transition: border-color 0.3s;
   transition: border-color 0.3s;
-  background-image: url(moish.png);
+  background-image: url(lol.png);
   background-size: cover;
   font-size: smaller;
+  font-family: "Casta";
   height: auto;
   text-rendering: optimizeLegibility;
 }
@@ -607,17 +450,17 @@ background-attachment: scroll;
 .cd-horizontal-timeline .events-content h4 {
   display: flex;
   font-weight: bold;
+  font-family: "Casta";
   font-size: 1.5rem!important;
-  font-weight: 200;
- justify-content: center;
- padding-bottom: 2%;
+  justify-content: center;
+  padding-bottom: 1%;
   /*margin-top:-9%;*/
 }
 /* custo =========================*/
 
 section{
-  margin-top: 4% !important;
-  padding-bottom: 3%;
+  margin-top: 1% !important;
+  padding-bottom:0 %;
 }
 
 li{
@@ -630,11 +473,16 @@ h5{
 }
 
 em{
-  border-top: 1px solid #9CAF88;
+  border-top: 1px solid #5f8fc5;
   display: flex;
+  color: #e74343;
   justify-content: center;
   margin-top: -7% !important;
   padding-top: 1%;
+}
+
+em a{
+  color:  #e74343;
 }
 
 .cd-horizontal-timeline .events-content em::before {
@@ -732,4 +580,3 @@ em{
     transform: translateX(0%);
   }
 }
-
