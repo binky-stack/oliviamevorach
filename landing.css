@@ -77,7 +77,11 @@ p{
 }
 
 
-
+h2 a{
+  text-decoration: none;
+  color:blanchedalmond ;
+  -webkit-text-stroke: 1px #c92c2c;
+}
 
 /*mobile ===================================*/
 
@@ -86,15 +90,15 @@ p{
   body{
     margin: 0 auto!important;
     height: 100%;
+    background-size: auto;
+    background-position-y: -90%;
   }
-  .navbar{
-    text-align: center;
-  }
+ 
 
 .events-wrapper{
   margin: 0 auto !important;
   text-align: left !important;
-  width: 65%;
+  width: 50%;
 }
 
 .events ol li a{
@@ -103,29 +107,6 @@ position: absolute;
 text-align: left !important;
 }
 
-.dice{
- visibility: visible;
-}
-h5{
-  margin-bottom: 5% !important;
-}
-  .accordion{
-    background-color:transparent;
-  }
-
-  .txt{
-    border-bottom: 1px solid #5f8fc5;
-  }
-
-  .one{
-    display: none;
-  }
-
-  .bottom-txt{
-    padding: 4% 4%;
-    border: none;
-    box-shadow: none;
-   }
 
    h2{
     text-align: center;
@@ -135,37 +116,24 @@ h5{
     text-align: center;
    }
 
-   .abc{
-     margin: 0!important;
-     border: 1px solid orange;
-     padding: 2%;
-     text-align: center;
-     line-height: 200%;
-   }
-   .smiley{
-     display: none;
-   }
-
-   .logo-2{
-     display: none;
-   }
-
-  h1{
-    letter-spacing: 0.2em;
-  }
-
+   
   h2{
-    font-size: 4vw!important;
+    font-size: 9vw!important;
+  }
+  .email{
+    font-size: 5vw;
   }
 
   h4{
     text-align: center;
     padding-top: 5%;
     border-right: none;
+    color: black;
+    background-color:hsl(336,64%,76%,20%);
   }
 
-  #google_translate_element{
-    margin-top: 5%;
+  p{
+    font-size: 4vw;
   }
 }
 
@@ -175,13 +143,6 @@ h5{
 
   body{
     margin:0 auto;
-  }
-
-  #google_translate_element{
-    margin-top: 5%;
-  }
-  header{
-    padding-bottom: 5%;
   }
 
   .parent{
@@ -233,7 +194,7 @@ h5{
 .cd-horizontal-timeline .events-wrapper {
   position: relative;
   height: 100%;
-  margin: 0 100px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
