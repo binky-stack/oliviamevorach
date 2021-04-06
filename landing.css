@@ -99,6 +99,9 @@ h2 a{
   -webkit-text-stroke: 1px #c92c2c;
 }
 
+em a{
+  z-index: 9999;
+}
 /*mobile ===================================*/
 
 @media screen and (max-width:1024px) and (min-width:200px){
