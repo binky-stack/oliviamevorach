@@ -79,11 +79,13 @@ img:hover{
 }
 
 .photo{
+display:flex;
+	justify-content:center;
   flex-wrap: wrap;
   margin-top:0%;
   padding: 0% 0% 10% 0%;
   width: 100%;
-  opacity: 95%;
+  opacity: 100%;
 }
 
 p{
