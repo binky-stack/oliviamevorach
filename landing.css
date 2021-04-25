@@ -81,8 +81,8 @@ img:hover{
 .photo{
   flex-wrap: wrap;
   margin-top:0%;
-  padding: 0% 2% 10% 2%;
-  width: 70%;
+  padding: 0% 0% 10% 0%;
+  width: 100%;
   opacity: 95%;
 }
 
