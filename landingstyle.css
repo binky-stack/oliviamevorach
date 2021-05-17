@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family:"FREE FAT FONT";
+  src: url('fonts/FREEFATFONT-Regular.otf') format('otf'); 
+  src: url('fonts/FREEFATFONT-Regular.woff') format('woff');
+  src: url('fonts/FREEFATFONT-Regular.woff2') format('woff2');
+	    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'geomanistitalic';
+    src: url('fonts/geomanist-regular-italic-webfont.eot');
+    src: url('fonts/geomanist-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/geomanist-regular-italic-webfont.woff2') format('woff2'),
+         url('fonts/geomanist-regular-italic-webfont.woff') format('woff'),
+         url('fonts/geomanist-regular-italic-webfont.ttf') format('truetype'),
+         url('fonts/geomanist-regular-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*, *:before, *:after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+  background-color:black;
+}
+
+h1{
+  font-family: 'FREE FAT FONT';
+  font-size: 10vw;
+  -webkit-text-stroke: 3px #c92c2c;
+  color:black;
+  position: fixed;
+  bottom: 0;
+}
+
+h2{
+  font-family: 'geomanistitalic'; 
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  color: #c92c2c;
+}
+
+.projects{
+  background-color: #b3beac;
+}
+
+ol{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
+}
+
+li{
+  line-height: 160%;
+  padding: 5% 0;
+  border-bottom: 2px solid slategrey;
+}
+
+
