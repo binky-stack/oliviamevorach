@@ -45,7 +45,7 @@ html {
 body{
  background-color: rgb(206, 194, 210);
   overflow-x: hidden!important;
-font-family: 'Casta-ThinSlanted';
+font-family: 'geomanistitalic';
   font-weight: bolder;
   text-rendering: optimizeLegibility;
 }
@@ -70,7 +70,7 @@ h1{
   font-size: 5rem;
   letter-spacing: 0.3em;
   color: black;
-  font-family: 'Casta-Thin';
+      font-family: 'geomanistitalic';
 }
 
 
@@ -109,7 +109,7 @@ h1{
 /* our statement ==================================== */
 
 .legend{
-  font-family:"Casta";
+    font-family: 'geomanistitalic';
   padding:7% 0 23% 0;/*should i make it even more isolated*/
   text-rendering: optimizeLegibility;
   margin-left: 7%;
