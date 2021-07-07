@@ -1,15 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
-  font-family: "Casta-Thin";
-  src: url("/Users/olivbibaiab/Library/Fonts/Dirtyline Studio - Casta-Thin.otf") format("otf");
+  font-family:"Casta-Thin";
+  src: url('fonts/Casta-Thin.otf') format('otf'); 
+ font-weight: normal;
+    font-style: normal;
 }
+
+
 @font-face {
-  font-family: "Casta-ThinSlanted";
-  src: url("Users/olivbibaiab/Library/Fonts/Dirtyline Studio - Casta-ThinSlanted.otf") format("otf");
+  font-family:"Casta-ThinSlanted";
+  src: url('fonts/Casta-ThinSlanted.otf') format('otf'); 
+ font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: "FREE FAT FONT";
-  src: url("/Users/olivbibaiab/Library/Fonts/FREEFATFONT-Regular.otf") format("otf");
+    font-family: 'geomanistitalic';
+    src: url('fonts/geomanist-regular-italic-webfont.eot');
+    src: url('fonts/geomanist-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/geomanist-regular-italic-webfont.woff2') format('woff2'),
+         url('fonts/geomanist-regular-italic-webfont.woff') format('woff'),
+         url('fonts/geomanist-regular-italic-webfont.ttf') format('truetype'),
+         url('fonts/geomanist-regular-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*, *:before, *:after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 *, *:before, *:after{
