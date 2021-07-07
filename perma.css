@@ -1,6 +1,6 @@
 @font-face {
   font-family:"Casta-Thin";
-  src: url('fonts/Dirtyline Studio - Casta-Thin.otf') format('otf'); 
+  src: url('fonts/Casta-Thin.otf') format('otf'); 
  font-weight: normal;
     font-style: normal;
 }
@@ -8,23 +8,9 @@
 
 @font-face {
   font-family:"Casta-ThinSlanted";
-  src: url('fonts/Dirtyline Studio - Casta-ThinSlanted.otf') format('otf'); 
- font-weight: normal;
-    font-style: normal;
+  src: url('fonts/Casta-ThinSlanted.otf') format('otf'); 
 }
 
-@font-face {
-    font-family: 'geomanistitalic';
-    src: url('fonts/geomanist-regular-italic-webfont.eot');
-    src: url('fonts/geomanist-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/geomanist-regular-italic-webfont.woff2') format('woff2'),
-         url('fonts/geomanist-regular-italic-webfont.woff') format('woff'),
-         url('fonts/geomanist-regular-italic-webfont.ttf') format('truetype'),
-         url('fonts/geomanist-regular-italic-webfont.svg#geomanistitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 *, *:before, *:after{
 	padding: 0;
@@ -45,7 +31,8 @@ html {
 body{
  background-color: rgb(206, 194, 210);
   overflow-x: hidden!important;
-font-family: 'geomanistitalic';
+  font-family:"Casta-Thin";
+
   font-weight: bolder;
   text-rendering: optimizeLegibility;
 }
@@ -70,7 +57,8 @@ h1{
   font-size: 5rem;
   letter-spacing: 0.3em;
   color: black;
-      font-family: 'geomanistitalic';
+      font-family:"Casta-Thin";
+
 }
 
 
@@ -109,7 +97,8 @@ h1{
 /* our statement ==================================== */
 
 .legend{
-    font-family: 'geomanistitalic';
+      font-family:"Casta-ThinSlanted";
+
   padding:7% 0 23% 0;/*should i make it even more isolated*/
   text-rendering: optimizeLegibility;
   margin-left: 7%;
