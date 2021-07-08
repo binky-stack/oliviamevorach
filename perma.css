@@ -1,6 +1,6 @@
 @font-face {
   font-family:'Casta-Thin';
-  src: url('fonts/Dirtyline Studio - Casta-Thin.otf') format('otf'); 
+  src: url("fonts/Dirtyline Studio - Casta-Thin.otf'" format("otf"); 
  font-weight: normal;
     font-style: normal;
 }
@@ -8,17 +8,11 @@
 
 @font-face {
   font-family:'Casta-ThinSlanted';
-  src: url('fonts/Dirtyline Studio - Casta-ThinSlanted') format('otf'); 
+  src: url("fonts/Dirtyline Studio - Casta-ThinSlanted") format("otf"); 
   font-weight: normal;
     font-style: italic;
 }
 
-
-*, *:before, *:after{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
 
 *, *:before, *:after{
 	padding: 0;
@@ -34,8 +28,6 @@ body{
  background-color: rgb(206, 194, 210);
   overflow-x: hidden!important;
  font-family: 'Casta-ThinSlanted';
-
-
   font-weight: bolder;
   text-rendering: optimizeLegibility;
 }
