@@ -1,14 +1,14 @@
 @font-face {
-  font-family:"Casta-Thin";
-  src: url('/fonts/Dirtyline Studio - Casta-Thin.otf') format('otf'); 
+  font-family:'Casta-Thin';
+  src: url('fonts/Dirtyline Studio - Casta-Thin.otf') format('otf'); 
  font-weight: normal;
     font-style: normal;
 }
 
 
 @font-face {
-  font-family:"Casta-ThinSlanted";
-  src: url('/fonts/Dirtyline Studio - Casta-ThinSlanted') format('otf'); 
+  font-family:'Casta-ThinSlanted';
+  src: url('fonts/Dirtyline Studio - Casta-ThinSlanted') format('otf'); 
   font-weight: normal;
     font-style: italic;
 }
@@ -60,8 +60,6 @@ h1{
   font-size: 5rem;
   letter-spacing: 0.3em;
   color: black;
-  font-family:"Casta-ThinSlanted";
-
 }
 
 
