@@ -9,6 +9,8 @@
 @font-face {
   font-family:"Casta-ThinSlanted";
   src: url('/fonts/Casta-ThinSlanted.otf') format('otf'); 
+  font-weight: normal;
+    font-style: italic;
 }
 
 
@@ -57,7 +59,7 @@ h1{
   font-size: 5rem;
   letter-spacing: 0.3em;
   color: black;
-      font-family:"Casta-Thin";
+  font-family:"Casta-ThinSlanted";
 
 }
 
