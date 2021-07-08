@@ -1,18 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
-  font-family:'Casta-Thin';
-  src: url("fonts/Dirtyline Studio - Casta-Thin.otf'" format("otf"); 
- font-weight: normal;
-    font-style: normal;
+  font-family: "Casta-Thin";
+  src: url("/Users/olivbibaiab/Library/Fonts/Dirtyline Studio - Casta-Thin.otf") format("otf");
 }
-
-
 @font-face {
-  font-family:'Casta-ThinSlanted';
-  src: url("fonts/Dirtyline Studio - Casta-ThinSlanted") format("otf"); 
-  font-weight: normal;
-    font-style: italic;
+  font-family: "Casta-ThinSlanted";
+  src: url("Users/olivbibaiab/Library/Fonts/Dirtyline Studio - Casta-ThinSlanted.otf") format("otf");
 }
-
+@font-face {
+  font-family: "FREE FAT FONT";
+  src: url("/Users/olivbibaiab/Library/Fonts/FREEFATFONT-Regular.otf") format("otf");
+}
 
 *, *:before, *:after{
 	padding: 0;
@@ -25,9 +23,13 @@ html {
 }
 
 body{
- background-color: rgb(206, 194, 210);
+ background-color: rgba(72, 241, 5, 0.87);
+ background-image: url(goop.gif);
+ background-repeat: repeat-y;
+ background-position: 10%;
+ background-attachment: inherit;
   overflow-x: hidden!important;
- font-family: 'Casta-ThinSlanted';
+font-family: 'Casta-ThinSlanted';
   font-weight: bolder;
   text-rendering: optimizeLegibility;
 }
@@ -52,6 +54,7 @@ h1{
   font-size: 5rem;
   letter-spacing: 0.3em;
   color: black;
+  font-family: 'Casta-Thin';
 }
 
 
@@ -74,36 +77,16 @@ h1{
     border-top: 2px solid #e48cc7;
   }
 
-  h4{
-    text-align: center;
-    text-rendering: optimizeLegibility;
-    padding-top: 2%;
-    font-family: "FREE FAT FONT";
-    letter-spacing:0.17em;
-    font-size: 1.9vw;
-    -webkit-text-stroke:2px #5f8fc5 !important;
-    color:#a0c7f5;
-    text-shadow:2.9px 2px black;
-  }
-
 
 /* our statement ==================================== */
 
 .legend{
-      font-family:"Casta-ThinSlanted";
-
+  font-family:"Casta";
   padding:7% 0 23% 0;/*should i make it even more isolated*/
   text-rendering: optimizeLegibility;
   margin-left: 7%;
   font-style: bold;
   letter-spacing: 0.3em;
-  background-image: url(glue2.gif);
-  background-clip:content-box;
-  background-size:cover;
-  background-repeat: repeat-y;
-  background-position-x:center;
-  background-position-y: center !important;
-
 }
 
 
@@ -261,16 +244,6 @@ ul li input[type=checkbox]:checked ~ i:after {
 
 
 
-/* images =======================================*/
-
-.parent{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: space-between;
-  justify-content: space-around;
-  z-index: -1;
-}
-
 img{
   max-width: 100%;
   height:300px;
@@ -286,142 +259,6 @@ img:hover{
   border-bottom: 5px solid rgb(181,143,132);
 }
 
-.photo{
-  flex-wrap: wrap;
-  margin-top:0% ;
-  padding: 2% 2% 15% 2%;
-  width: 33%;
-  border-right: 2px solid #a5c2e2;
-  border-left: 2px solid #68c55f;
-}
-
-#slop{
-  border-top:2px dotted #9CAF88;
-}
-
-/* The side navigation menu */
-
-#topicGuide,#topicGuide a{
-  z-index: 999;
-}
-
-span.topic-nav{
-  position: fixed;
-  bottom: 3em;
-  left: 1em;
-  font-family: "FREE FAT FONT";
-  color: thistle;
-  -webkit-text-stroke: 2px #5f8fc5;
-  font-size: larger;
-  letter-spacing: 0.3em;
-  border:2px dashed #e48cc7;
-  padding: 1%;
-  background-image: url(https://i.imgur.com/XOP0nXc.png);
-  background-size: cover;
-  background-position-x: left;
-}
-
-.sidenav {
-  height: 100%;
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #f1f1f1; 
-  overflow-x: hidden; 
-  padding-top: 50px; 
-  transition: 0.1s; 
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: medium;
-  color: #9CAF88;
-  display: block;
-  transition: 0.3s;
-  z-index: 99999 !important;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-  z-index: 99999 !important;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-
-.bottomMenu {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  border-top: 1px solid rgb(181,143,132);
-  background: rgb(181,143,132,0.4);
-  z-index: 1;
-  transition: all 1s;
-}
-.hide {
-  opacity: 0;
-  left: -100%;
-}
-.show {
-  opacity: 1;
-  left: 0;
-}
-
-.slide{
-  position: absolute;
-  bottom: 0;
-  text-align: center !important;
-  text-rendering: optimizeLegibility;
-  color: black;
-  font-size: .7rem;
-  line-height: 30px;
-  letter-spacing: 1px;
-  position: relative;
-  overflow: hidden;
-  max-height: 800px;
-  opacity: 1;
-  transform: translate(0, 0);
-  margin-top: 14px;
-  z-index: 2;
-  text-align: center;
-}
-
-.slide a {
-  text-decoration: none;
-  color: black;
-}
-
-.hidden {
-  opacity: 0;
-  left: -100%;
-}
-.shown {
-  opacity: 1;
-  right: 0;
-}
-
-span.playingcard{
-  color: #5f8fc5;
-  font-size:3vw;
-}
-
 
 
 /*mobile ===================================*/
@@ -429,7 +266,7 @@ span.playingcard{
 @media screen and (max-width:1024px) and (min-width:200px){
 
   body{
-    margin: 0!important;
+    margin: 0 auto!important;
     overflow-x: hidden !important;
     font-size: larger;
   }
@@ -473,7 +310,7 @@ flex-wrap: wrap;
 
     img{
       max-width: 100%;
-      margin: 0!important;
+      margin: 0 auto!important;
       height: auto;
     }
    
